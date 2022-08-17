@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Wasteland">
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WL_YouAreInTeam">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</Original>
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</English>
+			<German>&lt;t color='#FFFFFF' size='1.5' &gt;* Du bist in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Das töten von %4 Spielern ist untersagt! &lt;t color="#FF1111"&gt;Verboten&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;Nicht in Global sprechen!&lt;/t&gt;&lt;br/&gt;* Du kannst die Serverregeln auf der Map finden!&lt;br/&gt;* Serverrestarts sind nach dem Ermessen des Admins!&lt;br/&gt;* Du wirst in dein Team gelockt nach 3 Minuten!&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_WL_YouAreInFFA">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</Original>
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</English>
+			<German>&lt;t color='#FFFFFF' size='1.5' &gt;* Du bist in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; Team.&lt;br/&gt;* Du kannst &lt;t color="#00aa00"&gt;ALLE ANGREIFEN!&lt;/t&gt;&lt;br/&gt;* Du kannst die Servereregeln auf der Map finden!&lt;br/&gt;* Serverrestarts sind nach dem Ermessen des Admins!&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_WL_MapMoreInfo">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions on Discord: http://www.noaim.me &lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</Original>
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions on Discord: http://www.noaim.me &lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</English>
+			<German>&lt;t color='#FFFFFF' size='1.5' &gt;Melde Bugs und Ideen auf Discord: http://www.noaim.me &lt;br/&gt;Drücke die Windowstaste für die übersicht der Spielernamen!&lt;br/&gt;Drücke die Ende Taste um Ohrstöpsel einzusetzten!&lt;br/&gt;Für mehr Informationen schau auf die Map!&lt;br/&gt;</German>
+		</Key>
+	</Package>
+	<Package name="TeamLock">
+		<Key ID="STR_WL_Punish_Teamkiller">
+			<Original>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</Original>
+			<English>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</English>
+			<German>Du wurdest gemeldet für das töten von Leuten aus deinem Team! Dein Inventar wurde geleert und du kannst vorab nur noch als Independent spielen!</German>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamkiller">
+			<Original>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</Original>
+			<English>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</English>
+			<German>Du bist jetzt nur noch Independent weil du 2 oder mehr Spieler aus deinem Team gekillt hast!</German>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamswitched">
+			<Original>You have played as %1 for too long and cannot switch to the other team. (ask an admin to unlock you)</Original>
+			<English>You have played as %1 for too long and cannot switch to the other team. (ask an admin to unlock you)</English>
+			<German>Du hast als %1 zu lange gespielt! Du kannst die Team vorab nicht mehr wechseln. (Frage einen Admin, dich zu entsperren)</German>
+		</Key>
+	</Package>
+	<Package name="TeamKillWarningMessage">
+		<Key ID="STR_TK_MESSAGE">
+			<Original>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</Original>
+			<English>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</English>
+			<German>&lt;t size='2' color='#ff0000'&gt;Töten von Teammitgliedern ist ein vertoß der Regeln!&lt;/t&gt;&lt;br/&gt;Wenn es ein Unfall war, entschuldige dich und erstatte das!</German>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_RulesContent">
+			<Original>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</Original>
+			<English>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</English>
+			<German>&lt;br/&gt;    1. Pass bitte auf was du schreibst!. Wenn du ein Problem mit einem Spieler hast, melde ihn beim Support!&lt;br/&gt;    2. Sprechen über Global ist verboten! Benutzt den Teamspeak oder direkten Channel!&lt;br/&gt;    3. Das töten von mitspielern in der gleichen Fraktion ist verboten und kann bestraft werden! Wenn du frei sein willst, spiel als Independent!&lt;br/&gt;    4. Das weitergeben von Informationen deines Teams an andere ist untersagt!&lt;br/&gt;    5. Hacken/Cheaten und Bugusing ist untersagt und wird sofort mit einem Ban bestraft!&lt;br/&gt;    6. Das spammen im Chat ist untersagt!</German>
+		</Key>		
+	</Package>
+	<Package name="ShopDescriptions">
+		<Key ID="STR_WL_ShopDescriptions_Camo">
+			<Original>An improvised roof, 4 sticks and a blanket!</Original>
+			<English>An improvised roof, 4 sticks and a blanket!</English>
+			<German>Ein improvisiertes Dach, 4 Stöcke und eine Decke!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Tower">
+			<Original>A shaking wooden Tower!</Original>
+			<English>A shaking wooden Tower!</English>
+			<German>Ein klappriger Holzturm!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_RepairKit">
+			<Original>With this kit, you won't need an engineer!</Original>
+			<English>With this kit, you won't need an engineer!</English>
+			<German>Ein Kit womit du keinen Pannendienst mehr brauchst!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Marijuana">
+			<Original>Get Relaxed!</Original>
+			<English>Get Relaxed!</English>
+			<German>Entspannen!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_LSD">
+			<Original>WOAH! WHAT WAS THAT!</Original>
+			<English>WOAH! WHAT WAS THAT!</English>
+			<German>WOAH! WAS WAR DAS!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Cocaine">
+			<Original>Get your twitch on!</Original>
+			<English>Get your twitch on!</English>
+			<German>Oh es zuckt!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Heroin">
+			<Original>At this Stage, you may want to go to rehab.</Original>
+			<English>At this Stage, you may want to go to rehab.</English>
+			<German>Ein Kit womit du keinen Arzt mehr brauchst!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pinlock">
+			<Original>This programming tool is a once use only and non removable device to add a pincode to an owned vehicle. By using this your friends can also lock and unlock your vehicle!</Original>
+			<English>This programming tool is a once use only and non removable device to add a pincode to an owned vehicle. By using this your friends can also lock and unlock your vehicle!</English>
+			<German>Dieses Programmiertool ist ein einmaliges und nicht entfernbares Gerät, um einem eigenen Fahrzeug einen PIN-Code hinzuzufügen. Auf diese Weise können auch Ihre Freunde Ihr Fahrzeug verriegeln und entriegeln!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_MedKit">
+			<Original>With this kit, you won't need a medic!</Original>
+			<English>With this kit, you won't need a medic!</English>
+			<German>Ein Kit womit du keinen Arzt mehr brauchst!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelFull">
+			<Original>25 litres of pure unleaded fuel!</Original>
+			<English>25 litres of pure unleaded fuel!</English>
+			<German>25 Liter Benzinkanister!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
+			<Original>Empty fuel can. You can refill it!</Original>
+			<English>Empty fuel can. You can refill it!</English>
+			<German>Ein leerer Kanister, füll ihn auf!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
+			<Original>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</Original>
+			<English>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</English>
+			<German>Wähle dein Spawnpunkt aus. Haftungsausschluss: Dieses Produkt garantiert keine sichere Lieferung.</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
+			<Original>Go forth and steal fuel from vehicles!</Original>
+			<English>Go forth and steal fuel from vehicles!</English>
+			<German>Ein Kanister womit du den Tank von Fahrzeugen klauen kannst!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
+			<Original>Allows you to sprint continuously for 5 minutes.</Original>
+			<English>Allows you to sprint continuously for 5 minutes.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Warchest">
+			<Original>A safe to store your team's money.</Original>
+			<English>A safe to store your team's money.</English>
+			<German>Ein Tresor zum sichern des Geldes!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Stash">
+			<Original>A Bush to hide in!</Original>
+			<English>A Bush to hide in!</English>
+			<German>Ein Busch zum verstecken!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pumpkin">
+			<Original>You do have now a pumpkin on your head!</Original>
+			<English>You do have now a pumpkin on your head!</English>
+			<German>Du hast jetzt einen Kürbis auf deinem Kopf!</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Gift">
+			<Original>Merry Xmas! This is your Gift.</Original>
+			<English>Merry Xmas! This is your Gift.</English>
+			<German>Frohe Weihnachten! Das ist dein Geschenk.</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Easter">
+			<Original>A strange ball! could be a Easter Egg.</Original>
+			<English>A strange ball! could be a Easter Egg.</English>
+			<German>Ein seltsamer Ball! könnte ein Osterei sein.</German>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Quad">
+			<Original>Just a mobile Quad</Original>
+			<English>Just a mobile Quad</English>
+			<German>Ein Mobiles Quad</German>
+		</Key>
+	</Package>
+	<Package name="Dialogs">
+		<Key ID="STR_WL_dialog_TeamkillText">
+			<Original>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</Original>
+			<English>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</English>
+			<German>Du wurdest von dem Spieler %2 aus deinem Team getötet. %1&lt;br/&gt;&lt;br/&gt;Wenn dies ein Unfall war, vergib ihm, sonst sollten sie ihre Handlungen erklären.&lt;br/&gt;&lt;br/&gt;Wenn sich der Spieler nicht entschuldigt, bestrafen Sie ihn.</German>
+		</Key>
+	</Package>
+	<Package name="Errors">
+		<Key ID="STR_WL_Errors_InProgress">
+			<Original>You are already performing another action!</Original>
+			<English>You are already performing another action!</English>
+			<German>Du bist dabei etwas anderes zu machen!</German>
+		</Key>
+		<Key ID="STR_WL_Errors_InVehicle">
+			<Original>You are currently busy!</Original>
+			<English>You are currently busy!</English>
+			<German>Du machst bereits etwas!</German>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconActive">
+			<Original>You already have an active spawn beacon!</Original>
+			<English>You already have an active spawn beacon!</English>
+			<German>Du hast bereits einen aktiven Spawnpunkt!</German>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconInVehicle">
+			<Original>You cannot enter a vehicle while placing a spawn beacon!</Original>
+			<English>You cannot enter a vehicle while placing a spawn beacon!</English>
+			<German>Du kannst in kein Fahrzeug einsteigen, denn du bist dabei einen Spawnpunkt zu setzten!</German>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconTooMany">
+			<Original>You cannot take more spawn beacons!</Original>
+			<English>You cannot take more spawn beacons!</English>
+			<German>Du kannst nicht mehr Spawnpunkte setzten!</German>
+		</Key>
+	</Package>
+	<Package name="Zone">
+		<Key ID="STR_Zone_Radioactive">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Radioactive Zone entered, you need a Gas Mask! &lt;/t&gt;</Original>
+			<English>&lt;t color='#ff0000' size='2.5' &gt; Radioactive Zone entered, you need a Gas Mask! &lt;/t&gt;</English>
+			<German>&lt;t color='#ff0000' size='2.5' &gt; Radioaktive Zone betreten, Sie benötigen eine Gasmaske! &lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Zone_Death">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Warning!!! Death Zone entered. &lt;/t&gt;</Original>
+			<English>&lt;t color='#ff0000' size='2.5' &gt; Warning!!! Death Zone entered. &lt;/t&gt;</English>
+			<German>&lt;t color='#ff0000' size='2.5' &gt; Warnung!!! Todeszone betreten. &lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Zone_Gunstore">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please do not camp near Gunstores! &lt;/t&gt;</Original>
+			<English>&lt;t color='#ff0000' size='2.5' &gt; Please do not camp near Gunstores! &lt;/t&gt;</English>
+			<German>&lt;t color='#ff0000' size='2.5' &gt; Bitte campen Sie nicht in der Nähe von Gunstores! &lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_Zone_Gunstore2">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please keep in mind, Camping at Gunstores is forbidden, you can be punished by Admins. If you break this rule. &lt;/t&gt;</Original>
+			<English>&lt;t color='#ff0000' size='2.5' &gt; Please keep in mind, Camping at Gunstores is forbidden, you can be punished by Admins. If you break this rule. &lt;/t&gt;</English>
+			<German>&lt;t color='#ff0000' size='2.5' &gt; Bitte bedenken Sie, Camping in Gunstores ist verboten, Sie können von Admins bestraft werden. Wenn Sie diese Regel brechen. &lt;/t&gt;</German>
+		</Key>
+	</Package>
+	<Package name="Gunner">
+		<Key ID="STR_Gunner_Centurion">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Re-enter the Turret to refill the Ammo.&lt;/t&gt;</Original>
+			<English>&lt;t color='#ff0000' size='2.5' &gt; Re-enter the Turret to refill the Ammo.&lt;/t&gt;</English>
+			<German>&lt;t color='#ff0000' size='2.5' &gt; Betritt das Geschütz erneut, um die Munition wieder aufzufüllen. &lt;/t&gt;</German>
+	</Package>
+	<Package name="PMenu">
+		<Key ID="STR_PMenu_Compass">
+			<Original>Compass</Original>
+			<English>Compass</English>
+			<German>Kompass</German>
+		</Key>
+		<Key ID="STR_PMenu_Messages">
+			<Original>Messages</Original>
+			<English>Messages</English>
+			<German>Messages</German>
+		</Key>
+		<Key ID="STR_PMenu_ViewDist">
+			<Original>View Distance</Original>
+			<English>View Distance</English>
+			<German>Sichtweite</German>
+		</Key>
+		<Key ID="STR_PMenu_Effects">
+			<Original>Environmental Effects</Original>
+			<English>Environmental Effects</English>
+			<German>Landschafts Effekte</German>
+		</Key>
+		<Key ID="STR_PMenu_Groups">
+			<Original>Group Management</Original>
+			<English>Group Management</English>
+			<German>Gruppenmanagement</German>
+		</Key>
+		<Key ID="STR_PMenu_Airdrop">
+			<Original>Order Airdrop</Original>
+			<English>Order Airdrop</English>
+			<German>Airdrop Anfordern</German>
+		</Key>
+		<Key ID="STR_PMenu_Puniform">
+			<Original>Paint Uniform</Original>
+			<English>Paint Uniform</English>
+			<German>Uniform Färben</German>
+		</Key>
+		<Key ID="STR_PMenu_Pvehicle">
+			<Original>Paint Vehicle</Original>
+			<English>Paint Vehicle</English>
+			<German>Fahrzeug Färben</German>
+		</Key>
+		<Key ID="STR_PMenu_Killfeed">
+			<Original>Killfeed</Original>
+			<English>Killfeed</English>
+			<German>Killfeed</German>
+		</Key>
+		<Key ID="STR_PMenu_MarkObj">
+			<Original>Mark object</Original>
+			<English>Mark object</English>
+			<German>Objekt Markieren</German>
+		</Key>
+		<Key ID="STR_PMenu_Close">
+			<Original>Close</Original>
+			<English>Close</English>
+			<German>Schließen</German>
+		</Key>
+		<Key ID="STR_PMenu_Main">
+			<Original>Player Menu</Original>
+			<English>Player Menu</English>
+			<German>Spieler Menu</German>
+		</Key>
+		<Key ID="STR_PMenu_Donators">
+			<Original>Only for Donators</Original>
+			<English>Only for Donators</English>
+			<German>Nur für Spender</German>
+		</Key>
+		<Key ID="STR_PMenu_ServerList">
+			<Original>Server list</Original>
+			<English>Server list</English>
+			<German>Serverliste</German>
+		</Key>
+		<Key ID="STR_PMenu_Use">
+			<Original>Use</Original>
+			<English>Use</English>
+			<German>Benutzen</German>
+		</Key>
+		<Key ID="STR_PMenu_DropItem">
+			<Original>Drop Item</Original>
+			<English>Drop Item</English>
+			<German>Drop Item</German>
+		</Key>
+		<Key ID="STR_PMenu_DropCash">
+			<Original>Drop Cash</Original>
+			<English>Drop Cash</English>
+			<German>Drop Cash</German>
+		</Key>
+		<Key ID="STR_PMenu_InfoButton">
+			<Original>Info</Original>
+			<English>Info</English>
+			<German>Info</German>
+		</Key>
+		<Key ID="STR_PMenu_JetCount">
+			<Original>Jet Count:</Original>
+			<English>Jet Count:</English>
+			<German>XXXXXXXXXXXXXXXXXXXXXXX</German>
+		</Key>
+		<Key ID="STR_PMenu_GearLevel">
+			<Original>Gear Level</Original>
+			<English>Gear Level</English>
+			<German>Ausrüstungsstufe</German>
+		</Key>
+		<Key ID="STR_PMenu_servListMods">
+			<Original>Server list / Mods</Original>
+			<English>Server list / Mods</English>
+			<German>Serverliste / Mods</German>
+		</Key>
+	</Package>
+	<Package name="InfoMenu">
+		<Key ID="STR_InfoMenu_Info">
+			<Original>Informations</Original>
+			<English>Informations</English>
+			<German>Informationen</German>
+		</Key>
+		<Key ID="STR_InfoMenu_Community">
+			<Original>Community:</Original>
+			<English>Community:</English>
+			<German>Community:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_nALinks">
+			<Original>noAim Links:</Original>
+			<English>noAim Links:</English>
+			<German>noAim Links:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_nAVIP">
+			<Original>noAim Vip:</Original>
+			<English>noAim Vip:</English>
+			<German>noAim Vip:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_nAStats">
+			<Original>noAim Stats:</Original>
+			<English>noAim Stats:</English>
+			<German>noAim Statistik:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_ServRules">
+			<Original>Server Rules:</Original>
+			<English>Server Rules:</English>
+			<German>Server Regeln:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_Commands">
+			<Original>Commands:</Original>
+			<English>Commands:</English>
+			<German>Befehle:</German>
+		</Key>
+		<Key ID="STR_InfoMenu_VIPsub">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<English>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</English>
+			<German>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Zum Abonnieren klicken&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - für reservierte Slots, Perks und Team-Balance-Immunität.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_StatsLink">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Click to open Stats&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover Server / Player Statistics&lt;/t&gt;</Original>
+			<English>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Click to open Stats&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover Server / Player Statistics&lt;/t&gt;</English>
+			<German>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Klicke hier, für die Statistik&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover-Server-/Spieler-Statistiken&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_ForumLink">
+			<Original>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_DiscordLink">
+			<Original>&lt;t color='#808080'&gt;Discord: &lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.me'&gt;www.noaim.me&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<English></English>
+			<German></German>
+		</Key>
+		<Key ID="STR_InfoMenu_TSLink">
+			<Original>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_applySup">
+			<Original>&lt;t color='#808080'&gt;Apply as Supporter:&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Apply as Supporter:&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Bewerbe dich als Supporter:&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_applySupInfo">
+			<Original>&lt;t color='#c90000'&gt;To apply as an Supporter visit either our Forum or Discord.&lt;/t&gt;</Original>
+			<English>&lt;t color='#c90000'&gt;To apply as an Supporter visit either our Forum or Discord.&lt;/t&gt;</English>
+			<German>&lt;t color='#c90000'&gt;Um dich als Supporter zu bewerben, besuche entweder unser Forum oder Discord.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_openSrvRules">
+			<Original>&lt;t color='#808080'&gt;To open up our Server Rules:&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;To open up our Server Rules:&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Um unsere Serverregeln zu öffnen:&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_RMapView">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Map View)&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Map View)&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Drücke &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Karten Ansicht)&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCRules">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER RULES&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER RULES&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Drücke &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER REGELN&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Der Browser wird geöffnet)&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCCommand">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HELP GUIDE / COMMANDS&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HELP GUIDE / COMMANDS&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Drücke &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HILFE GUIDE / BEFEHLE&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Der Browser wird geöffnet)&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_BugSugs">
+			<Original>&lt;t color='#808080'&gt;Either post bugs/suggestions on our Discord or in our Forum.&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Either post bugs/suggestions on our Discord or in our Forum.&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Entweder Fehler/Vorschläge auf unserem Discord oder in unserem Forum posten.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_fixBugs">
+			<Original>&lt;t color='#808080'&gt;Please be patient, fixing bugs and adding new stuff may take awhile.&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Please be patient, fixing bugs and adding new stuff may take awhile.&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Bitte haben Sie etwas Geduld, das Beheben von Fehlern und das Hinzufügen neuer Inhalte kann eine Weile dauern.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_Changelog">
+			<Original>&lt;t color='#808080'&gt;Press &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to open up the Changelogs.&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Press &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to open up the Changelogs.&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Drücke &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; um die Changelogs zu öffnen.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_InfoMenu_comingsoon">
+			<Original>&lt;t color='#808080'&gt;more to come...&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;more to come...&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;da kommt noch mehr...&lt;/t&gt;</German>
+		</Key>
+	</Package>
+	<Package name="WNOTF">
+		<Key ID="STR_WNOTF_TeamBalance">
+			<Original>Team balancing doesn't apply to donators.</Original>
+			<English>Team balancing doesn't apply to donators.</English>
+			<German>Der Teamausgleich gilt nicht für Donator.</German>
+		</Key>
+	</Package>
+	<Package name="GNOTF">
+		<Key ID="STR_GNOTF_SaveLoadout">
+			<Original>Do you want to Save your Loadout for $%1?</Original>
+			<English>Do you want to Save your Loadout for $%1?</English>
+			<German>Möchten Sie Ihren Loadout für $%1 speichern?</German>
+		</Key>
+		<Key ID="STR_GNOTF_changeLoadout">
+			<Original>Your Loadout has been saved successfully.</Original>
+			<English>Your Loadout has been saved successfully.</English>
+		</Key>
+		<Key ID="STR_GNOTF_getLoadout">
+			<Original>Do you want to Load your saved Loadout for $%1?</Original>
+			<English>Do you want to Load your saved Loadout for $%1?</English>
+			<German>Möchten Sie Ihren gespeichertes Loadout für $%1 laden?</German>
+		</Key>
+		<Key ID="STR_GNOTF_setLoadout">
+			<Original>Your Loadout has been successfully loaded...</Original>
+			<English>Your Loadout has been successfully loaded...</English>
+			<German>Ihr Loadout wurde erfolgreich geladen ...</German>
+		</Key>
+		<Key ID="STR_GNOTF_notMoney">
+			<Original>Not enough money!</Original>
+			<English>Not enough money!</English>
+			<German>Nicht genug Bargeld!</German>
+		</Key>
+		<Key ID="STR_GNOTF_Yes">
+			<Original>Yes</Original>
+			<English>Yes</English>
+			<German>Ja</German>
+		</Key>
+		<Key ID="STR_GNOTF_No">
+			<Original>No</Original>
+			<English>No</English>
+			<German>Nein</German>
+		</Key>
+	</Package>
+	<Package name="SMenu">
+		<Key ID="STR_SMenu_Serverlist">
+			<Original>Server list</Original>
+			<English>Server list</English>
+			<German>Serverliste</German>
+		</Key>
+		<Key ID="STR_SMenu_Informations">
+			<Original>Informations</Original>
+			<English>Informations</English>
+			<German>Informationen</German>
+		</Key>
+		<Key ID="STR_SMenu_RulesCMD">
+			<Original>Rules/Commands:</Original>
+			<English>Rules/Commands:</English>
+			<German>Regeln/Befehle:</German>
+		</Key>
+		<Key ID="STR_SMenu_pressM">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to view our Rules/Commands. (Map View)&lt;/t&gt;</Original>
+			<English>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to view our Rules/Commands. (Map View)&lt;/t&gt;</English>
+			<German>&lt;t color='#808080'&gt;Drücken Sie, &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; um unsere Regeln / Befehle anzuzeigen. (Kartenansicht)&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_SMenu_Vipsubscribe">
+			<Original>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<English>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</English>
+			<German>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;VIP freischalten&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - für reservierte Slots, Vergünstigungen und Immunität gegen Teambalance.&lt;/t&gt;</German>
+		</Key>
+		<Key ID="STR_SMenu_chooseLoadout">
+			<Original>Choose your Loadout</Original>
+			<English>Choose your Loadout</English>
+			<German>Wählen Sie Ihren Loadout</German>
+		</Key>
+		<Key ID="STR_SMenu_randomLoadout">
+			<Original>Random Loadout</Original>
+			<English>Random Loadout</English>
+			<German>Zufalls Loadout</German>
+		</Key>
+		<Key ID="STR_SMenu_custLoadout">
+			<Original>Custom Loadout</Original>
+			<English>Custom Loadout</English>
+			<German>Custom Loadout</German>
+		</Key>
+		<Key ID="STR_SMenu_randomSpawn">
+			<Original>Random</Original>
+			<English>Random</English>
+			<German>Zufall</German>
+		</Key>
+		<Key ID="STR_SMenu_randomHalo">
+			<Original>Random Halo Jump</Original>
+			<English>Random Halo Jump</English>
+			<German>Zufalls Halo Jump</German>
+		</Key>
+	</Package>
+	<Package name="VIPfeatures">
+		<Key ID="STR_VIP_HVTColor">
+			<Original>HVT Color</Original>
+			<English>HVT Color</English>
+			<German>HVT Farbe</German>
+		</Key>
+		<Key ID="STR_VIP_Taunts">
+			<Original>Taunts</Original>
+			<English>Taunts</English>
+			<German>Taunts</German>
+		</Key>
+		<Key ID="STR_VIP_HVTColorRec">
+			<Original>Please reconnect to save changes</Original>
+			<English>Please reconnect to save changes</English>
+			<German>Erneut verbinden um zu Speichern</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton1">
+			<Original>Color - Red (no Vip)</Original>
+			<English>Color - Red (no Vip)</English>
+			<German>Farbe - Rot (kein Vip)</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton2">
+			<Original>Color - Orange</Original>
+			<English>Color - Orange</English>
+			<German>Farbe - Orange</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton3">
+			<Original>Color - Pink</Original>
+			<English>Color - Pink</English>
+			<German>Farbe - Pink</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton4">
+			<Original>Color - Pink/Red</Original>
+			<English>Color - Pink/Red</English>
+			<German>Farbe - Pink-Rot</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton5">
+			<Original>Color - Blue/Gray</Original>
+			<English>Color - Blue/Gray</English>
+			<German>Farbe - Blau-Grau</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton6">
+			<Original>Color - Purple</Original>
+			<English>Color - Purple</English>
+			<German>Farbe - Violet</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton7">
+			<Original>Color - Golden</Original>
+			<English>Color - Golden</English>
+			<German>Farbe - Gold Gelb</German>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton0">
+			<Original>Color - Yellow (Vip)</Original>
+			<English>Color - Yellow (Vip)</English>
+			<German>Farbe - Gelb (Vip)</German>
+		</Key>
+		<Key ID="STR_VIP_HVTcolorC">
+			<Original>High Value Target Color</Original>
+			<English>High Value Target Color</English>
+			<German>High Value Target Farbe</German>
+		</Key>
+	</Package>
+	<Package name="AWStores">
+		<Key ID="STR_AW_Buy">
+			<Original>Buy</Original>
+			<English>Buy</English>
+			<German>Kaufen</German>
+		</Key>
+		<Key ID="STR_AW_Ordnance">
+			<Original>Grenades/Mines</Original>
+			<English>Grenades/Mines</English>
+			<German>Granaten/Minen</German>
+		</Key>
+		<Key ID="STR_AW_sellWeapon">
+			<Original>Sell Weapon</Original>
+			<English>Sell Weapon</English>
+			<German>Waffe verkaufen</German>
+		</Key>
+		<Key ID="STR_AW_sellUniform">
+			<Original>Sell Uniform</Original>
+			<English>Sell Uniform</English>
+			<German>Uniform verkaufen</German>
+		</Key>
+		<Key ID="STR_AW_sellVest">
+			<Original>Sell Vest</Original>
+			<English>Sell Vest</English>
+			<German>Vest verkaufen</German>
+		</Key>
+		<Key ID="STR_AW_sellBackpack">
+			<Original>Sell Backpack</Original>
+			<English>Sell Backpack</English>
+			<German>Rucksack verkaufen</German>
+		</Key>
+		<Key ID="STR_AW_Cancel">
+			<Original>Cancel</Original>
+			<English>Cancel</English>
+			<German>Abbrechen</German>
+		</Key>
+		<Key ID="STR_AW_Select">
+			<Original>Select Weapon</Original>
+			<English>Select Weapon</English>
+			<German>Waffe Auswählen</German>
+		</Key>
+		<Key ID="STR_AW_SelectScope">
+			<Original>Select Scope</Original>
+			<English>Select Scope</English>
+			<German>Visier Auswählen</German>
+		</Key>
+		<Key ID="STR_AW_noHandgun">
+			<Original>No Handgun</Original>
+			<English>No Handgun</English>
+			<German>Keine Pistole</German>
+		</Key>
+	</Package>
+	<Package name="ShopItems">
+		<Key ID="STR_WL_ShopItems_RepairKit">
+			<Original>Repair Kit</Original>
+			<English>Repair Kit</English>
+			<German>Reperaturset</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanF">
+			<Original>Jerry Can (Full)</Original>
+			<English>Jerry Can (Full)</English>
+			<German>Kanister (voll)</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanE">
+			<Original>Jerry Can (Empty)</Original>
+			<English>Jerry Can (Empty)</English>
+			<German>Kanister (leer)</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SpawnBeacon">
+			<Original>Spawn Beacon</Original>
+			<English>Spawn Beacon</English>
+			<German>Spawn Beacon</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_CamoNet">
+			<Original>Camo Net</Original>
+			<English>Camo Net</English>
+			<German>Tarnnetz</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SyphonHose">
+			<Original>Syphon Hose</Original>
+			<English>Syphon Hose</English>
+			<German>Siphonschlauch</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EnergyDrink">
+			<Original>Energy Drink</Original>
+			<English>Energy Drink</English>
+			<German>Energiegetränk</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Warchest">
+			<Original>Warchest</Original>
+			<English>Warchest</English>
+			<German>Kriegskasse</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Heroin">
+			<Original>Heroin</Original>
+			<English>Heroin</English>
+			<German>Heroin</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Cocaine">
+			<Original>Cocaine</Original>
+			<English>Cocaine</English>
+			<German>Kokain</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Marijuana">
+			<Original>Marijuana</Original>
+			<English>Marijuana</English>
+			<German>Marihuana</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_LSD">
+			<Original>LSD</Original>
+			<English>LSD</English>
+			<German>LSD</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Stash">
+			<Original>Stash Bush</Original>
+			<English>Stash Bush</English>
+			<German>Busch Versteck</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EasterEgg">
+			<Original>Easter Egg</Original>
+			<English>Easter Egg</English>
+			<German>Osterei</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_XmasGift">
+			<Original>Xmas Gift</Original>
+			<English>Xmas Gift</English>
+			<German>Weihnachtsgeschenk</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Pumpkin">
+			<Original>Pumpkin</Original>
+			<English>Pumpkin</English>
+			<German>Kürbis</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_MobileBike">
+			<Original>Mobile Bike</Original>
+			<English>Mobile Bike</English>
+			<German>Mobiles Rad</German>
+		</Key>
+	</Package>
+	<Package name="DynLoadout">
+		<Key ID="STR_WL_DynLoadout_AcoRed">
+			<Original>Aco (Red)</Original>
+			<English>Aco (Red)</English>
+			<German>Aco (Rot)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreen">
+			<Original>Aco (Green)</Original>
+			<English>Aco (Green)</English>
+			<German>Aco (Grün)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCircle">
+			<Original>Holosight (Red Circle)</Original>
+			<English>Holosight (Red Circle)</English>
+			<German>Holosight (Roter Kreis)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCross">
+			<Original>Holosight SMG (Red Cross)</Original>
+			<English>Holosight SMG (Red Cross)</English>
+			<German>Holosight SMG (Rotes Kreuz)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoRedSMG">
+			<Original>Aco SMG (Red)</Original>
+			<English>Aco SMG (Red)</English>
+			<German>Aco SMG (Rot)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreenSMG">
+			<Original>Aco SMG (Green)</Original>
+			<English>Aco SMG (Green)</English>
+			<German>Aco SMG (Grün)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSBlk">
+			<Original>AMS Black (Red Dot)</Original>
+			<English>AMS Black (Red Dot)</English>
+			<German>AMS Schwarz (Roter Punkt)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSKhk">
+			<Original>AMS Khaki (Red Cross)</Original>
+			<English>AMS Khaki (Red Cross)</English>
+			<German>AMS Khaki (Rotes Kreuz)</German>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSSnd">
+			<Original>AMS Sand (Red Arrow)</Original>
+			<English>AMS Sand (Red Arrow)</English>
+			<German>AMS-Sand (Roter Pfeil)</German>
+		</Key>
+	</Package>
+	<Package name="zTauntMenu">
+		<Key ID="STR_WL_TauntMenu_Button0">
+			<Original>Knee bending</Original>
+			<English>Knee bending</English>
+			<German>Kniebeugen</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button1">
+			<Original>Knee bending (fast)</Original>
+			<English>Knee bending (fast)</English>
+			<German>Kniebeugen (schnell)</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button2">
+			<Original>Push-ups</Original>
+			<English>Push-ups</English>
+			<German>Liegestützen</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button3">
+			<Original>Takwondo</Original>
+			<English>Takwondo</English>
+			<German>Takwondo</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button4">
+			<Original>Pissing</Original>
+			<English>Pissing</English>
+			<German>Pissen</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button5">
+			<Original>Dancing 1</Original>
+			<English>Dancing 1</English>
+			<German>Tanzen 1</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button6">
+			<Original>Dancing 2</Original>
+			<English>Dancing 2</English>
+			<German>Tanzen 2</German>
+		</Key>
+		<Key ID="STR_WL_noMove">
+			<Original>While Dancing you can not move!</Original>
+			<English>While Dancing you can not move!</English>
+			<German>Werend dem Tanzen kannst du dich nicht bewegen!</German>
+		</Key>
+		<Key ID="STR_WL_tauntMenu">
+			<Original>Taunt Menu</Original>
+			<English>Taunt Menu</English>
+			<German>Taunt-Menü</German>
+		</Key>
+	</Package>
+	<Package name="STR_WL_uniPainter">
+		<Key ID="STR_WL_uniP_RedCamo">
+			<Original>Red Camo</Original>
+			<English>Red Camo</English>
+			<German>Rote Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_RedCamo2">
+			<Original>Red Camo (2)</Original>
+			<English>Red Camo (2)</English>
+			<German>Rote Tarnung (2)</German>
+		</Key>
+		<Key ID="STR_WL_uniP_gerArmy">
+			<Original>German Army</Original>
+			<English>German Army</English>
+			<German>Bundeswehr</German>
+		</Key>
+		<Key ID="STR_WL_uniP_WhiteRed">
+			<Original>White-red</Original>
+			<English>White-red</English>
+			<German>Weiss Rot</German>
+		</Key>
+		<Key ID="STR_WL_uniP_Rusty">
+			<Original>Rusty</Original>
+			<English>Rusty</English>
+			<German>Rostig</German>
+		</Key>
+		<Key ID="STR_WL_uniP_DesertCamo">
+			<Original>Desert Camo</Original>
+			<English>Desert Camo</English>
+			<German>Wüsten Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_GrassCamo">
+			<Original>Grass Camo</Original>
+			<English>Grass Camo</English>
+			<German>Gras Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_FlowPow">
+			<Original>Flower Power</Original>
+			<English>Flower Power</English>
+			<German>Flower Power</German>
+		</Key>
+		<Key ID="STR_WL_uniP_BlueCamo">
+			<Original>Blue Camo</Original>
+			<English>Blue Camo</English>
+			<German>Blaue Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_SandCamo">
+			<Original>Sand Camo</Original>
+			<English>Sand Camo</English>
+			<German>Sand Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_WoodlandCamo">
+			<Original>Woodland Camo</Original>
+			<English>Woodland Camo</English>
+			<German>Wald Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_SwampCamo">
+			<Original>Swamp Camo</Original>
+			<English>Swamp Camo</English>
+			<German>Sumpf Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_BWdesert">
+			<Original>BW Desert (Veh)</Original>
+			<English>BW Desert (Veh)</English>
+			<German>BW Wüste (Veh)</German>
+		</Key>
+		<Key ID="STR_WL_uniP_BWtropic">
+			<Original>BW Tropic (Veh)</Original>
+			<English>BW Tropic (Veh)</English>
+			<German>BW Tropen (Veh)</German>
+		</Key>
+		<Key ID="STR_WL_uniP_BWcamoOrg">
+			<Original>BW Camo</Original>
+			<English>BW Camo</English>
+			<German>BW Tarnung</German>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec1">
+			<Original>Donator Special I</Original>
+			<English>Donator Special I</English>
+			<German>Spender Spezial I</German>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec2">
+			<Original>Donator Special II</Original>
+			<English>Donator Special II</English>
+			<German>Spender Spezial II</German>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec3">
+			<Original>Donator Special III</Original>
+			<English>Donator Special III</English>
+			<German>Spender Spezial III</German>
+		</Key>
+		<Key ID="STR_WL_uniP_paintUniMenu">
+			<Original>Paint Uniform Menu ($1500 each)</Original>
+			<English>Paint Uniform Menu ($1500 each)</English>
+			<German>Uniform Farb Menü (jeder $1500)</German>
+		</Key>
+		<Key ID="STR_WL_uniP_paintVehMenu">
+			<Original>Vehicle Repaint Menu ($500 each)</Original>
+			<English>Vehicle Repaint Menu ($500 each)</English>
+			<German>Fahrzeug Lackier Menü (jeder $500)</German>
+		</Key>
+		<Key ID="STR_WL_uniP_uniSelect">
+			<Original>Select</Original>
+			<English>Select</English>
+			<German>Auswählen</German>
+		</Key>
+	</Package>
+	<Package name="STR_ESCMenu">
+		<Key ID="STR_ESCMenu_gameInfo">
+			<Original>Wasteland Info</Original>
+			<English>Wasteland Info</English>
+			<German>Wasteland Info</German>
+		</Key>
+		<Key ID="STR_ESCMenu_helpButton">
+			<Original>HELP GUIDE / COMMANDS</Original>
+			<English>HELP GUIDE / COMMANDS</English>
+			<German>HILFE GUIDE / BEFEHLE</German>
+		</Key>
+		<Key ID="STR_ESCMenu_helpTip">
+			<Original>Help guide and Commands list</Original>
+			<English>Help guide and Commands list</English>
+			<German>Hilfeanleitung und Befehlsliste</German>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesButton">
+			<Original>SERVER RULES</Original>
+			<English>SERVER RULES</English>
+			<German>SERVER REGELN</German>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesTip">
+			<Original>A3 Wasteland Server Rules</Original>
+			<English>A3 Wasteland Server Rules</English>
+			<German>A3 Wasteland Server Regeln</German>
+		</Key>
+		<Key ID="STR_ESCMenu_vipButton">
+			<Original>DONATE/VIP</Original>
+			<English>DONATE/VIP</English>
+			<German>SPENDEN/VIP</German>
+		</Key>
+		<Key ID="STR_ESCMenu_vipTip">
+			<Original>Register and buy VIP</Original>
+			<English>Register and buy VIP</English>
+			<German>Registrieren und VIP kaufen</German>
+		</Key>
+		<Key ID="STR_ESCMenu_serverButton">
+			<Original>SERVER LIST</Original>
+			<English>SERVER LIST</English>
+			<German>SERVER LISTE</German>
+		</Key>
+		<Key ID="STR_ESCMenu_serverTip">
+			<Original>Overview of all noAim Servers</Original>
+			<English>Overview of all noAim Servers</English>
+			<German>Übersicht aller noAim Server</German>
+		</Key>
+		<Key ID="STR_ESCMenu_statsButton">
+			<Original>WASTELAND STATS</Original>
+			<English>WASTELAND STATS</English>
+			<German>WASTELAND STATS</German>
+		</Key>
+		<Key ID="STR_ESCMenu_statsTip">
+			<Original>Crossover Server/Player Stats</Original>
+			<English>Crossover Server/Player Stats</English>
+			<German>Crossover-Server/Spieler-Statistiken</German>
+		</Key>
+		<Key ID="STR_ESCMenu_nALinks">
+			<Original>noAim Links</Original>
+			<English>noAim Links</English>
+			<German>noAim Links</German>
+		</Key>
+		<Key ID="STR_ESCMenu_forumButton">
+			<Original>FORUM</Original>
+			<English>FORUM</English>
+			<German>FORUM</German>
+		</Key>
+		<Key ID="STR_ESCMenu_forumTip">
+			<Original>Post bugs, suggestions or apply for Membership</Original>
+			<English>Post bugs, suggestions or apply for Membership</English>
+			<German>Poste Fehler, Vorschläge oder beantrage Mitgliedschaft</German>
+		</Key>
+		<Key ID="STR_ESCMenu_disButton">
+			<Original>DISCORD</Original>
+			<English>DISCORD</English>
+			<German>DISCORD</German>
+		</Key>
+		<Key ID="STR_ESCMenu_disTip">
+			<Original>Post bugs, suggestions, report players or apply for Supporter</Original>
+			<English>Post bugs, suggestions, report players or apply for Supporter</English>
+			<German>Poste Bugs, Vorschläge, melde Spieler oder bewirb dich als Supporter</German>
+		</Key>
+	</Package>
+</Project>
