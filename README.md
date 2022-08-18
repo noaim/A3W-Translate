@@ -1,5 +1,6 @@
 # a3w-translate
-Supported Languages:
+
+Supported Languages in v1.5.2:
 
 Original - English
 German
