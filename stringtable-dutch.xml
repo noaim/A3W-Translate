@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Wasteland">
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WL_YouAreInTeam">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#FFFFFF' size='1.5' &gt;* je bent in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; groep.&lt;br/&gt;* aanvallen of stelen van andere %4 spelers is &lt;t color="#FF1111"&gt;Verboden&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;Niet praten IN GLOBAL&lt;/t&gt;&lt;br/&gt;* server regels kan je vinden in het menu op de kaart.&lt;br/&gt;* server herstarten word gedaan op oordeel van de admin.&lt;br/&gt;* wisselen van groep kan niet meer na 3 minuten.&lt;/t&gt;</Dutch>
+		</Key>
+		<Key ID="STR_WL_YouAreInFFA">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#FFFFFF' size='1.5' &gt;* je bent in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; groep.&lt;br/&gt;* jij bent &lt;t color="#00aa00"&gt;vrij om iedereen aan te vallen&lt;/t&gt;&lt;br/&gt;* server regels kan je vinden in het menu op de kaart.&lt;br/&gt;* server herstarten word gedaan op oordeel van de admin.&lt;/t&gt;</Dutch>
+		</Key>
+		<Key ID="STR_WL_MapMoreInfo">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions on Discord: http://www.noaim.me &lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</Original>
+			<Dutch>&lt;t color='#FFFFFF' size='1.5' &gt;meld bugs en suggesties op Discord: http://www.noaim.me &lt;br/&gt;Druk op de windows knop of je home knop om namen van spelers aan of uit te zetten&lt;br/&gt;Druk op de END knop om oordoppen in te doen&lt;br/&gt;kijk op de kaart voor meer informatie&lt;br/&gt;</Dutch>
+		</Key>
+	</Package>
+	<Package name="TeamLock">
+		<Key ID="STR_WL_Punish_Teamkiller">
+			<Original>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</Original>
+			<Dutch>je bent gestraft voor het doden van je medespeler voor de tweede keer deze sesie. de spullen in je zakken zijn verwijderd, en je kan nu alleen spelen als Independent.</Dutch>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamkiller">
+			<Original>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</Original>
+			<Dutch>je bent bent beperkt tot het spelen met de indipendent groep, omdat je 2 of meerdere keren je groep genoten gedood hebt tijdens deze sessie.</Dutch>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamswitched">
+			<Original>You have played as %1 for too long and cannot switch to the other team. (ask an admin to unlock you)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="TeamKillWarningMessage">
+		<Key ID="STR_TK_MESSAGE">
+			<Original>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</Original>
+			<Dutch>&lt;t size='2' color='#ff0000'&gt;het doden van je medespeler is tegen de regels!&lt;/t&gt;&lt;br/&gt;als het perongeluk ging moet je dit uitleggen en je verontschuldigen, anders word je gemarkeerd als medespeler moordenaar en word je van de server verwijderd.</Dutch>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_RulesContent">
+			<Original>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</Original>
+			<Dutch>&lt;br/&gt;    1.hou het netjes tijdens het typen. waarneer je een probleem met een ander hebt ga dan naar direct.&lt;br/&gt;    2. spreken in global is verboden. gebruik de kanalen in teamspeak!.&lt;br/&gt;    3. het doden van medespelers in de zelfde groep is verboden en strafbaar!. speels als Independent als je ieder voor zich wilt.&lt;br/&gt;    4. het delen van informatie naar een andere groep word niet geapprecieerd&lt;br/&gt;    5. het gebruiken van hacks/cheats of andere programmas om voordeel te krijgen is verboden en word bestraft met een ban.&lt;br/&gt;    6. het velemalen afspelen van lange of luide geluiden zal bestraft kunnen worden met een permanente ban</Dutch>
+		</Key>		
+	</Package>
+	<Package name="ShopDescriptions">
+		<Key ID="STR_WL_ShopDescriptions_Camo">
+			<Original>An improvised roof, 4 sticks and a blanket!</Original>
+			<Dutch>zelf gemaakte dak, 4 stokken en een deken!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Tower">
+			<Original>A shaking wooden Tower!</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_RepairKit">
+			<Original>With this kit, you won't need an engineer!</Original>
+			<Dutch>met deze kit heb je geen monteur meer nodig!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Marijuana">
+			<Original>Get Relaxed!</Original>
+			<Dutch>ga relexen!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_LSD">
+			<Original>WOAH! WHAT WAS THAT!</Original>
+			<Dutch>WOW! wat was dat!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Cocaine">
+			<Original>Get your twitch on!</Original>
+			<Dutch>krijg je Twitch op!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Heroin">
+			<Original>At this Stage, you may want to go to rehab.</Original>
+			<Dutch>op dit stadium wil je misschien gaan afkicken.</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pinlock">
+			<Original>This programming tool is a once use only and non removable device to add a pincode to an owned vehicle. By using this your friends can also lock and unlock your vehicle!</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_MedKit">
+			<Original>With this kit, you won't need a medic!</Original>
+			<Dutch>met deze kit heb je geen doktor nodig!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelFull">
+			<Original>25 litres of pure unleaded fuel!</Original>
+			<Dutch>25 lieters van ongeloode benzine!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
+			<Original>Empty fuel can. You can refill it!</Original>
+			<Dutch>een legen benzine kan, je kan hem vullen!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
+			<Original>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</Original>
+			<Dutch>kies je spawn punt. verwerping: dit product garandeert geen veilige aflevering van je spullen.</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
+			<Original>Go forth and steal fuel from vehicles!</Original>
+			<Dutch>ga benzine stelen van andere voertuigen!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
+			<Original>Allows you to sprint continuously for 5 minutes.</Original>
+			<Dutch>laat je continu rennen voor de volgende 5 minuten.</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Warchest">
+			<Original>A safe to store your team's money.</Original>
+			<Dutch>een kluis voor het geld van je groep in op te slaan.</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Stash">
+			<Original>A Bush to hide in!</Original>
+			<Dutch>een struik om je in te verstoppen!</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pumpkin">
+			<Original>You do have now a pumpkin on your head!</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Gift">
+			<Original>Merry Xmas! This is your Gift.</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Easter">
+			<Original>A strange ball! could be a Easter Egg.</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Quad">
+			<Original>Just a mobile Quad</Original>
+			<Dutch>gewoon een mobiele quad</Dutch>
+		</Key>
+	</Package>
+	<Package name="Dialogs">
+		<Key ID="STR_WL_dialog_TeamkillText">
+			<Original>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</Original>
+			<Dutch>je bent gedood door %2 van je eigen groep %1&lt;br/&gt;&lt;br/&gt;als dit perongeluk ging vergeef hem dan anders moet hij zijn acties uitleggen.&lt;br/&gt;&lt;br/&gt;als hij zich niet verontschuldigd, straf hem.</Dutch>
+		</Key>
+	</Package>
+	<Package name="Errors">
+		<Key ID="STR_WL_Errors_InProgress">
+			<Original>You are already performing another action!</Original>
+			<Dutch>je bent al wat anders aan het doen!</Dutch>
+		</Key>
+		<Key ID="STR_WL_Errors_InVehicle">
+			<Original>You are currently busy!</Original>
+			<Dutch>je bent momenteel druk bezig!</Dutch>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconActive">
+			<Original>You already have an active spawn beacon!</Original>
+			<Dutch>je bent een ander spawnpunt actief!</Dutch>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconInVehicle">
+			<Original>You cannot enter a vehicle while placing a spawn beacon!</Original>
+			<Dutch>je kan niet in een voertuig stappen als je een spawnpunt neer zet!</Dutch>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconTooMany">
+			<Original>You cannot take more spawn beacons!</Original>
+			<Dutch>je kan niet meer spawnpunten pakken!</Dutch>
+		</Key>
+	</Package>
+	<Package name="Zone">
+		<Key ID="STR_Zone_Radioactive">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Radioactive Zone entered, you need a Gas Mask! &lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#ff0000' size='2.5' &gt; radioactief gebied betreden, je hebt een gasmasker nodig! &lt;/t&gt;</Dutch>
+		</Key>
+		<Key ID="STR_Zone_Death">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Warning!!! Death Zone entered. &lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#ff0000' size='2.5' &gt; waarschuwing!!! doden gebied betreden. &lt;/t&gt;</Dutch>
+		</Key>
+		<Key ID="STR_Zone_Gunstore">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please do not camp near Gunstores! &lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#ff0000' size='2.5' &gt; graag niet campen in de buurt van wapen winkels &lt;/t&gt;</Dutch>
+		</Key>
+		<Key ID="STR_Zone_Gunstore2">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please keep in mind, Camping at Gunstores is forbidden, you can be punished by Admins. If you break this rule. &lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#ff0000' size='2.5' &gt; graag onthouden dan het campen van wapen winkels verboden is en bestraft kan worden door admins als je deze regel breekt. &lt;/t&gt;</Dutch>
+		</Key>
+	</Package>
+	<Package name="Gunner">
+		<Key ID="STR_Gunner_Centurion">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Re-enter the Turret to refill the Ammo.&lt;/t&gt;</Original>
+			<Dutch>&lt;t color='#ff0000' size='2.5' &gt; stap opnieuw in de Mk21 Centurion om hem te herlanden. &lt;/t&gt;</Dutch>
+		</Key>
+	</Package>
+	<Package name="PMenu">
+		<Key ID="STR_PMenu_Compass">
+			<Original>Compass</Original>
+			<Dutch>kompas</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Messages">
+			<Original>Messages</Original>
+			<Dutch>berichten</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_ViewDist">
+			<Original>View Distance</Original>
+			<Dutch>kijk afstand</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Effects">
+			<Original>Environmental Effects</Original>
+			<Dutch>elementen bijwerkingen</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Groups">
+			<Original>Group Management</Original>
+			<Dutch>groep managment</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Airdrop">
+			<Original>Order Airdrop</Original>
+			<Dutch>airdrop inroepen</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Puniform">
+			<Original>Paint Uniform</Original>
+			<Dutch>uniform verven</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Pvehicle">
+			<Original>Paint Vehicle</Original>
+			<Dutch>voertuig verven</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Killfeed">
+			<Original>Killfeed</Original>
+			<Dutch>doden lijst</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_MarkObj">
+			<Original>Mark object</Original>
+			<Dutch>obj markering.</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Close">
+			<Original>Close</Original>
+			<Dutch>sluiten</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Main">
+			<Original>Player Menu</Original>
+			<Dutch>speler Menu</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Donators">
+			<Original>Only for Donators</Original>
+			<Dutch>alleen voor donateurs</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_ServerList">
+			<Original>Server list</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_Use">
+			<Original>Use</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_DropItem">
+			<Original>Drop Item</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_DropCash">
+			<Original>Drop Cash</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_InfoButton">
+			<Original>Info</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_JetCount">
+			<Original>Jet Count:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_GearLevel">
+			<Original>Gear Level</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_PMenu_servListMods">
+			<Original>Server list / Mods</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="InfoMenu">
+		<Key ID="STR_InfoMenu_Info">
+			<Original>Informations</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_Community">
+			<Original>Community:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_nALinks">
+			<Original>noAim Links:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_nAVIP">
+			<Original>noAim Vip:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_nAStats">
+			<Original>noAim Stats:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_ServRules">
+			<Original>Server Rules:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_Commands">
+			<Original>Commands:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_VIPsub">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_StatsLink">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Click to open Stats&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover Server / Player Statistics&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_ForumLink">
+			<Original>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_DiscordLink">
+			<Original>&lt;t color='#808080'&gt;Discord: &lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.me'&gt;www.noaim.me&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_TSLink">
+			<Original>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_applySup">
+			<Original>&lt;t color='#808080'&gt;Apply as Supporter:&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_applySupInfo">
+			<Original>&lt;t color='#c90000'&gt;To apply as an Supporter visit either our Forum or Discord.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_openSrvRules">
+			<Original>&lt;t color='#808080'&gt;To open up our Server Rules:&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_RMapView">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Map View)&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCRules">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER RULES&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCCommand">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HELP GUIDE / COMMANDS&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_BugSugs">
+			<Original>&lt;t color='#808080'&gt;Either post bugs/suggestions on our Discord or in our Forum.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_fixBugs">
+			<Original>&lt;t color='#808080'&gt;Please be patient, fixing bugs and adding new stuff may take awhile.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_Changelog">
+			<Original>&lt;t color='#808080'&gt;Press &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to open up the Changelogs.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_InfoMenu_comingsoon">
+			<Original>&lt;t color='#808080'&gt;more to come...&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="WNOTF">
+		<Key ID="STR_WNOTF_TeamBalance">
+			<Original>Team balancing doesn't apply to donators.</Original>
+			<Dutch>groep balanceering geld niet voor donateurs.</Dutch>
+		</Key>
+	</Package>
+	<Package name="GNOTF">
+		<Key ID="STR_GNOTF_SaveLoadout">
+			<Original>Do you want to Save your Loadout for $%1?</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_changeLoadout">
+			<Original>Your Loadout has been saved successfully.</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_getLoadout">
+			<Original>Do you want to Load your saved Loadout for $%1?</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_setLoadout">
+			<Original>Your Loadout has been successfully loaded...</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_notMoney">
+			<Original>Not enough money!</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_Yes">
+			<Original>Yes</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_GNOTF_No">
+			<Original>No</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="SMenu">
+		<Key ID="STR_SMenu_Serverlist">
+			<Original>Server list</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_Informations">
+			<Original>Informations</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_RulesCMD">
+			<Original>Rules/Commands:</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_pressM">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to view our Rules/Commands. (Map View)&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_Vipsubscribe">
+			<Original>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_chooseLoadout">
+			<Original>Choose your Loadout</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_randomLoadout">
+			<Original>Random Loadout</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_custLoadout">
+			<Original>Custom Loadout</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_randomSpawn">
+			<Original>Random</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_SMenu_randomHalo">
+			<Original>Random Halo Jump</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="VIPfeatures">
+		<Key ID="STR_VIP_HVTColor">
+			<Original>HVT Color</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_Taunts">
+			<Original>Taunts</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTColorRec">
+			<Original>Please reconnect to save changes</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton1">
+			<Original>Color - Red (no Vip)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton2">
+			<Original>Color - Orange</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton3">
+			<Original>Color - Pink</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton4">
+			<Original>Color - Pink/Red</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton5">
+			<Original>Color - Blue/Gray</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton6">
+			<Original>Color - Purple</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton7">
+			<Original>Color - Golden</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton0">
+			<Original>Color - Yellow (Vip)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_VIP_HVTcolorC">
+			<Original>High Value Target Color</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="AWStores">
+		<Key ID="STR_AW_Buy">
+			<Original>Buy</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_Ordnance">
+			<Original>Grenades/Mines</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_sellWeapon">
+			<Original>Sell Weapon</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_sellUniform">
+			<Original>Sell Uniform</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_sellVest">
+			<Original>Sell Vest</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_sellBackpack">
+			<Original>Sell Backpack</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_Cancel">
+			<Original>Cancel</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_Select">
+			<Original>Select Weapon</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_SelectScope">
+			<Original>Select Scope</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_AW_noHandgun">
+			<Original>No Handgun</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="ShopItems">
+		<Key ID="STR_WL_ShopItems_RepairKit">
+			<Original>Repair Kit</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanF">
+			<Original>Jerry Can (Full)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanE">
+			<Original>Jerry Can (Empty)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SpawnBeacon">
+			<Original>Spawn Beacon</Original>
+			<English>Spawn Beacon</English>
+			<German>Spawn Beacon</German>
+		</Key>
+		<Key ID="STR_WL_ShopItems_CamoNet">
+			<Original>Camo Net</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SyphonHose">
+			<Original>Syphon Hose</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EnergyDrink">
+			<Original>Energy Drink</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Warchest">
+			<Original>Warchest</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Heroin">
+			<Original>Heroin</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Cocaine">
+			<Original>Cocaine</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Marijuana">
+			<Original>Marijuana</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_LSD">
+			<Original>LSD</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Stash">
+			<Original>Stash Bush</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EasterEgg">
+			<Original>Easter Egg</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_XmasGift">
+			<Original>Xmas Gift</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Pumpkin">
+			<Original>Pumpkin</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_ShopItems_MobileBike">
+			<Original>Mobile Bike</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="DynLoadout">
+		<Key ID="STR_WL_DynLoadout_AcoRed">
+			<Original>Aco (Red)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreen">
+			<Original>Aco (Green)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCircle">
+			<Original>Holosight (Red Circle)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCross">
+			<Original>Holosight SMG (Red Cross)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoRedSMG">
+			<Original>Aco SMG (Red)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreenSMG">
+			<Original>Aco SMG (Green)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSBlk">
+			<Original>AMS Black (Red Dot)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSKhk">
+			<Original>AMS Khaki (Red Cross)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSSnd">
+			<Original>AMS Sand (Red Arrow)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="zTauntMenu">
+		<Key ID="STR_WL_TauntMenu_Button0">
+			<Original>Knee bending</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button1">
+			<Original>Knee bending (fast)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button2">
+			<Original>Push-ups</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button3">
+			<Original>Takwondo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button4">
+			<Original>Pissing</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button5">
+			<Original>Dancing 1</Original>
+			<English>Dancing 1</English>
+			<German>Tanzen 1</German>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button6">
+			<Original>Dancing 2</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_noMove">
+			<Original>While Dancing you can not move!</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_tauntMenu">
+			<Original>Taunt Menu</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="STR_WL_uniPainter">
+		<Key ID="STR_WL_uniP_RedCamo">
+			<Original>Red Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_RedCamo2">
+			<Original>Red Camo (2)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_gerArmy">
+			<Original>German Army</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_WhiteRed">
+			<Original>White-red</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_Rusty">
+			<Original>Rusty</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_DesertCamo">
+			<Original>Desert Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_GrassCamo">
+			<Original>Grass Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_FlowPow">
+			<Original>Flower Power</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_BlueCamo">
+			<Original>Blue Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_SandCamo">
+			<Original>Sand Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_WoodlandCamo">
+			<Original>Woodland Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_SwampCamo">
+			<Original>Swamp Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_BWdesert">
+			<Original>BW Desert (Veh)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_BWtropic">
+			<Original>BW Tropic (Veh)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_BWcamoOrg">
+			<Original>BW Camo</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec1">
+			<Original>Donator Special I</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec2">
+			<Original>Donator Special II</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec3">
+			<Original>Donator Special III</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_paintUniMenu">
+			<Original>Paint Uniform Menu ($1500 each)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_paintVehMenu">
+			<Original>Vehicle Repaint Menu ($500 each)</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_WL_uniP_uniSelect">
+			<Original>Select</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+	<Package name="STR_ESCMenu">
+		<Key ID="STR_ESCMenu_gameInfo">
+			<Original>Wasteland Info</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_helpButton">
+			<Original>HELP GUIDE / COMMANDS</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_helpTip">
+			<Original>Help guide and Commands list</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesButton">
+			<Original>SERVER RULES</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesTip">
+			<Original>A3 Wasteland Server Rules</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_vipButton">
+			<Original>DONATE/VIP</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_vipTip">
+			<Original>Register and buy VIP</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_serverButton">
+			<Original>SERVER LIST</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_serverTip">
+			<Original>Overview of all noAim Servers</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_statsButton">
+			<Original>WASTELAND STATS</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_statsTip">
+			<Original>Crossover Server/Player Stats</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_nALinks">
+			<Original>noAim Links</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_forumButton">
+			<Original>FORUM</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_forumTip">
+			<Original>Post bugs, suggestions or apply for Membership</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_disButton">
+			<Original>DISCORD</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+		<Key ID="STR_ESCMenu_disTip">
+			<Original>Post bugs, suggestions, report players or apply for Supporter</Original>
+			<Dutch>XXXXXXXXXXXXXXXXXXXXXXX</Dutch>
+		</Key>
+	</Package>
+</Project>
