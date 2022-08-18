@@ -29,3 +29,7 @@ These typos could break the script:
 To Translate a Language from English to ***** just download its stringtable file. As soon as you are done, upload the stringtable file either in the #dev-translation channel or push it onto github.
 
 To Edit stringtable.xml files either use notepad++, visualstudio or a XML editor.
+
+Please do not update the original stringtable.xml, only the stringtable-language.xml files.
+
+Please keep in mind, that the stringtables will also be updated (added new lines) in future.
