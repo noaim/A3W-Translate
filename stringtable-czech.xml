@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Wasteland">
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WL_YouAreInTeam">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</Original>
+			<Czech>&lt;t color='#FFFFFF' size='1.5' &gt;* Tvůj tým &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Zabíjení a okrádání %4 hráčů je zakázáno &lt;t color="#FF1111"&gt;ZAKÁZÁNO&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NEMLUVTE DO GLOBALNÍHO CHATU&lt;/t&gt;&lt;br/&gt;* Pravidla serveru si můžete přečíst v nabídce mapy.&lt;br/&gt;* Restartování serveru je na uvážení správce.&lt;br/&gt;* Po 3 minutách nebudete moci změnit tým.&lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_WL_YouAreInFFA">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</Original>
+			<Czech>&lt;t color='#FFFFFF' size='1.5' &gt;* Jsi v &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Vaše pozice &lt;t color="#00aa00"&gt;Nezávislý&lt;/t&gt;&lt;br/&gt;* Pravidla serveru si můžete přečíst v nabídce mapy.&lt;br/&gt;* Restartování serveru je na uvážení správce.&lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_WL_MapMoreInfo">
+			<Original>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions on Discord: http://www.noaim.me &lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</Original>
+			<Czech>&lt;t color='#FFFFFF' size='1.5' &gt;Hlašte chyby a návrhy ve službě Discord: http://www.noaim.me &lt;br/&gt;Jména hráčů zobrazíte stisknutím klávesy Windows nebo Home&lt;br/&gt;Stisknutím tlačítka END vložíte špunty do uší&lt;br/&gt;Další informace naleznete na mapě&lt;br/&gt;</Czech>
+		</Key>
+	</Package>
+	<Package name="TeamLock">
+		<Key ID="STR_WL_Punish_Teamkiller">
+			<Original>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</Original>
+			<Czech>Byli jste dvakrát potrestáni za zabití vlastních během relace serveru. Váš inventář byl vymazán a nyní jste uzamčeni na straně Nezávislých..</Czech>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamkiller">
+			<Original>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</Original>
+			<Czech>Jste omezeni na Nezávislou stranu, protože jste během této relace serveru provedli 2 nebo více zabití vlastních.</Czech>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamswitched">
+			<Original>You have played as %1 for too long and cannot switch to the other team. (ask an admin to unlock you)</Original>
+			<Czech>Hráli jste jako %1 moc dlouho a nemůžete přejít do jiného týmu (požádejte správce aby vás odemkl)</Czech>
+		</Key>
+	</Package>
+	<Package name="TeamKillWarningMessage">
+		<Key ID="STR_TK_MESSAGE">
+			<Original>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</Original>
+			<Czech>&lt;t size='2' color='#ff0000'&gt;Zabíjení vlastních je v rozporu s pravidly!&lt;/t&gt;&lt;br/&gt;Pokud to byla chyba, musíte situaci vysvětlit a omluvit se, jinak budete označeni za vraha vlastních a budete vyhozeni.</Czech>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_RulesContent">
+			<Original>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</Original>
+			<Czech>&lt;br/&gt;    1. Omezte sprosté výrazy na minimum. Pokud máte problém s jiným hráčem, přesuntě se do Direct chatu.&lt;br/&gt;    2. ŽÁDNÁ HLASOVÁ KOMUNIKACE V GLOBAL CHATU. Použijte ostatní kanály nebo Teamspeak!.&lt;br/&gt;    3. Zabíjení vlastních když hrajete za BLUFOR nebo OPFOR, je zakázáno a trestáno. Hrajte jako Nezávislí pokud chcete hrát svobodně.&lt;br/&gt;    4. Sdělování informací o vašem (bývalém) týmu jiným týmům je ubohé a neuznávané&lt;br/&gt;    5. Nevyužívejte R3F ani žádné jiné doplňky, jinak dostanete ban.&lt;br/&gt;    6. Použití nebo spamování vlastních hlasitých\dlouhých zvukových příkazů bude mít za následek trest vedoucí až k trvalému banu</Czech>
+		</Key>		
+	</Package>
+	<Package name="ShopDescriptions">
+		<Key ID="STR_WL_ShopDescriptions_Camo">
+			<Original>An improvised roof, 4 sticks and a blanket!</Original>
+			<Czech>Improvizovaná střecha, 4 klacky a deka!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Tower">
+			<Original>A shaking wooden Tower!</Original>
+			<Czech>Třesoucí se dřevěná věž!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_RepairKit">
+			<Original>With this kit, you won't need an engineer!</Original>
+			<Czech>S touto sadou nebudete potřebovat inženýra!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Marijuana">
+			<Original>Get Relaxed!</Original>
+			<Czech>Relaxujte!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_LSD">
+			<Original>WOAH! WHAT WAS THAT!</Original>
+			<Czech>WOW! CO TO BYLO!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Cocaine">
+			<Original>Get your twitch on!</Original>
+			<Czech>Ať to škube!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Heroin">
+			<Original>At this Stage, you may want to go to rehab.</Original>
+			<Czech>V této fázi asi možná budete chtít do léčebny.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pinlock">
+			<Original>This programming tool is a once use only and non removable device to add a pincode to an owned vehicle. By using this your friends can also lock and unlock your vehicle!</Original>
+			<Czech>Tento programovací nástroj je jednorázové a neodnímatelné zařízení pro přidání PIN kódu do vlastněného vozidla. Pomocí tohoto mohou vaši přátelé také zamknout a odemknout vaše vozidlo!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_MedKit">
+			<Original>With this kit, you won't need a medic!</Original>
+			<Czech>S touto sadou nebudete potřebovat lékaře!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelFull">
+			<Original>25 litres of pure unleaded fuel!</Original>
+			<Czech>25 litrů čistého bezolovnatého paliva!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
+			<Original>Empty fuel can. You can refill it!</Original>
+			<Czech>Prázdný kanystr. Můžete jej znovu naplnit!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
+			<Original>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</Original>
+			<Czech>Vyberte místo spawnu. Prohlášení: Tento produkt nezaručuje bezpečné dodání zboží.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
+			<Original>Go forth and steal fuel from vehicles!</Original>
+			<Czech>Běžte ukradněte palivo z vozidel!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
+			<Original>Allows you to sprint continuously for 5 minutes.</Original>
+			<Czech>Umožňuje nepřetržitý sprint po dobu 5 minut.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Warchest">
+			<Original>A safe to store your team's money.</Original>
+			<Czech>Trezor pro uložení peněz vašeho týmu.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Stash">
+			<Original>A Bush to hide in!</Original>
+			<Czech>Keř, do kterého se můžete schovat!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Pumpkin">
+			<Original>You do have now a pumpkin on your head!</Original>
+			<Czech>Teď máš na hlavě dýni!</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Gift">
+			<Original>Merry Xmas! This is your Gift.</Original>
+			<Czech>Veselé Vánoce! Taoto je tvůj dárek.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Easter">
+			<Original>A strange ball! could be a Easter Egg.</Original>
+			<Czech>Zvláštní koule! může to být velikonoční vajíčko.</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Quad">
+			<Original>Just a mobile Quad</Original>
+			<Czech>Prostě mobilní čtyřkolka</Czech>
+		</Key>
+	</Package>
+	<Package name="Dialogs">
+		<Key ID="STR_WL_dialog_TeamkillText">
+			<Original>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</Original>
+			<Czech>Zabil vás váš %2 hráč %1&lt;br/&gt;&lt;br/&gt;Pokud to byla nehoda, odpusťe mu to, v jiném případě by měl své jednání vysvětlit.&lt;br/&gt;&lt;br/&gt;Pokud se hráč neomluví, potrestejte ho.</Czech>
+		</Key>
+	</Package>
+	<Package name="Errors">
+		<Key ID="STR_WL_Errors_InProgress">
+			<Original>You are already performing another action!</Original>
+			<Czech>Již provádíte jinou akci!</Czech>
+		</Key>
+		<Key ID="STR_WL_Errors_InVehicle">
+			<Original>You are currently busy!</Original>
+			<Czech>Jsi teď zaneprázdněný!</Czech>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconActive">
+			<Original>You already have an active spawn beacon!</Original>
+			<Czech>Už máte aktivní spawn beacon!</Czech>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconInVehicle">
+			<Original>You cannot enter a vehicle while placing a spawn beacon!</Original>
+			<Czech>Nemůžete vstoupit do vozidla při umistování spawn beaconu!</Czech>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconTooMany">
+			<Original>You cannot take more spawn beacons!</Original>
+			<Czech>Nelze vzít více spawn beaconů!</Czech>
+		</Key>
+	</Package>
+	<Package name="Zone">
+		<Key ID="STR_Zone_Radioactive">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Radioactive Zone entered, you need a Gas Mask! &lt;/t&gt;</Original>
+			<Czech>&lt;t color='#ff0000' size='2.5' &gt; Vstoupili jste do Radioaktivní Zóny, potřebujete plynovou masku! &lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_Zone_Death">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Warning!!! Death Zone entered. &lt;/t&gt;</Original>
+			<Czech>&lt;t color='#ff0000' size='2.5' &gt; Varování!!! Vstoupili jste na Území smrti. &lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_Zone_Gunstore">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please do not camp near Gunstores! &lt;/t&gt;</Original>
+			<Czech>&lt;t color='#ff0000' size='2.5' &gt; Prosím, nekempujte poblíž Gunstores! &lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_Zone_Gunstore2">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Please keep in mind, Camping at Gunstores is forbidden, you can be punished by Admins. If you break this rule. &lt;/t&gt;</Original>
+			<Czech>&lt;t color='#ff0000' size='2.5' &gt; Mějte na paměti, že kempování v Gunstores je zakázáno, můžete být potrestáni správci. Pokud porušíte toto pravidlo. &lt;/t&gt;</Czech>
+		</Key>
+	</Package>
+	<Package name="Gunner">
+		<Key ID="STR_Gunner_Centurion">
+			<Original>&lt;t color='#ff0000' size='2.5' &gt; Re-enter the Turret to refill the Ammo.&lt;/t&gt;</Original>
+			<Czech>&lt;t color='#ff0000' size='2.5' &gt; Vraťte se do věže pro doplnění munice.&lt;/t&gt;</Czech>
+		</Key>
+	</Package>
+	<Package name="PMenu">
+		<Key ID="STR_PMenu_Compass">
+			<Original>Compass</Original>
+			<Czech>Kompas</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Messages">
+			<Original>Messages</Original>
+			<Czech>Zprávy</Czech>
+		</Key>
+		<Key ID="STR_PMenu_ViewDist">
+			<Original>View Distance</Original>
+			<Czech>Dohled</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Effects">
+			<Original>Environmental Effects</Original>
+			<Czech>Efekty Prostředí</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Groups">
+			<Original>Group Management</Original>
+			<Czech>Správa Skupin</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Airdrop">
+			<Original>Order Airdrop</Original>
+			<Czech>Objednávka leteckého výsadku</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Puniform">
+			<Original>Paint Uniform</Original>
+			<Czech>Nabarvit Uniformu</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Pvehicle">
+			<Original>Paint Vehicle</Original>
+			<Czech>Nabarvit Vozidlo</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Killfeed">
+			<Original>Killfeed</Original>
+			<Czech>Seznam zabití</Czech>
+		</Key>
+		<Key ID="STR_PMenu_MarkObj">
+			<Original>Mark object</Original>
+			<Czech>Označit objekt</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Close">
+			<Original>Close</Original>
+			<Czech>Zavřít</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Main">
+			<Original>Player Menu</Original>
+			<Czech>Menu Hráče</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Donators">
+			<Original>Only for Donators</Original>
+			<Czech>Pouze pro dárce</Czech>
+		</Key>
+		<Key ID="STR_PMenu_ServerList">
+			<Original>Server list</Original>
+			<Czech>Server list</Czech>
+		</Key>
+		<Key ID="STR_PMenu_Use">
+			<Original>Use</Original>
+			<Czech>Použít</Czech>
+		</Key>
+		<Key ID="STR_PMenu_DropItem">
+			<Original>Drop Item</Original>
+			<Czech>Zahodit předmět</Czech>
+		</Key>
+		<Key ID="STR_PMenu_DropCash">
+			<Original>Drop Cash</Original>
+			<Czech>Zahodit peníze</Czech>
+		</Key>
+		<Key ID="STR_PMenu_InfoButton">
+			<Original>Info</Original>
+			<Czech>Informace</Czech>
+		</Key>
+		<Key ID="STR_PMenu_JetCount">
+			<Original>Jet Count:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_PMenu_GearLevel">
+			<Original>Gear Level</Original>
+			<Czech>Úroveň výbavy</Czech>
+		</Key>
+		<Key ID="STR_PMenu_servListMods">
+			<Original>Server list / Mods</Original>
+			<Czech>Server list / Módy</Czech>
+		</Key>
+	</Package>
+	<Package name="InfoMenu">
+		<Key ID="STR_InfoMenu_Info">
+			<Original>Informations</Original>
+			<Czech>Informace</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_Community">
+			<Original>Community:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_nALinks">
+			<Original>noAim Links:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_nAVIP">
+			<Original>noAim Vip:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_nAStats">
+			<Original>noAim Stats:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_ServRules">
+			<Original>Server Rules:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_Commands">
+			<Original>Commands:</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_VIPsub">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_StatsLink">
+			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Click to open Stats&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover Server / Player Statistics&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_ForumLink">
+			<Original>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_DiscordLink">
+			<Original>&lt;t color='#808080'&gt;Discord: &lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.me'&gt;www.noaim.me&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_TSLink">
+			<Original>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_applySup">
+			<Original>&lt;t color='#808080'&gt;Apply as Supporter:&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_applySupInfo">
+			<Original>&lt;t color='#c90000'&gt;To apply as an Supporter visit either our Forum or Discord.&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_openSrvRules">
+			<Original>&lt;t color='#808080'&gt;To open up our Server Rules:&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_RMapView">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Map View)&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCRules">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER RULES&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_ESCCommand">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HELP GUIDE / COMMANDS&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_BugSugs">
+			<Original>&lt;t color='#808080'&gt;Either post bugs/suggestions on our Discord or in our Forum.&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_fixBugs">
+			<Original>&lt;t color='#808080'&gt;Please be patient, fixing bugs and adding new stuff may take awhile.&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_Changelog">
+			<Original>&lt;t color='#808080'&gt;Press &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to open up the Changelogs.&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_InfoMenu_comingsoon">
+			<Original>&lt;t color='#808080'&gt;more to come...&lt;/t&gt;</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="WNOTF">
+		<Key ID="STR_WNOTF_TeamBalance">
+			<Original>Team balancing doesn't apply to donators.</Original>
+			<Czech>Týmove vyrovnávání se nevztahuje na dárce</Czech>
+		</Key>
+	</Package>
+	<Package name="GNOTF">
+		<Key ID="STR_GNOTF_SaveLoadout">
+			<Original>Do you want to Save your Loadout for $%1?</Original>
+			<Czech>Chcete uložit svůj Loadout za $%1?</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_changeLoadout">
+			<Original>Your Loadout has been saved successfully.</Original>
+			<Czech>Váš Loadout byl úspěšně uložen.</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_getLoadout">
+			<Original>Do you want to Load your saved Loadout for $%1?</Original>
+			<Czech>Chcete načíst uložený Loadout za $%1?</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_setLoadout">
+			<Original>Your Loadout has been successfully loaded...</Original>
+			<Czech>Váš Loadout byl úspěšně načten...</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_notMoney">
+			<Original>Not enough money!</Original>
+			<Czech>Nedostatek peněz!</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_Yes">
+			<Original>Yes</Original>
+			<Czech>Ano</Czech>
+		</Key>
+		<Key ID="STR_GNOTF_No">
+			<Original>No</Original>
+			<Czech>Ne</Czech>
+		</Key>
+	</Package>
+	<Package name="SMenu">
+		<Key ID="STR_SMenu_Serverlist">
+			<Original>Server list</Original>
+			<Czech>Server list</Czech>
+		</Key>
+		<Key ID="STR_SMenu_Informations">
+			<Original>Informations</Original>
+			<Czech>Informace</Czech>
+		</Key>
+		<Key ID="STR_SMenu_RulesCMD">
+			<Original>Rules/Commands:</Original>
+			<Czech>Pravidla/Příkazy:</Czech>
+		</Key>
+		<Key ID="STR_SMenu_pressM">
+			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to view our Rules/Commands. (Map View)&lt;/t&gt;</Original>
+			<Czech>&lt;t color='#808080'&gt;Klikněte &lt;/t&gt;&lt;t color='#3096e4'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; k zobrazení našich pravidel/příkazů. (Zobrazte Mapu)&lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_SMenu_Vipsubscribe">
+			<Original>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
+			<Czech>&lt;t colorLink='#3096e4'&gt;&lt;a href='https://www.noaim.eu/index.php?noaimshop/46-arma-3-wasteland/'&gt;Kliknutím se přihlásíte k odběru&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - pro vyhrazené sloty, výhody a imunitu rovnováhy týmů.&lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_SMenu_chooseLoadout">
+			<Original>Choose your Loadout</Original>
+			<Czech>Vyberte si svůj Loadout</Czech>
+		</Key>
+		<Key ID="STR_SMenu_randomLoadout">
+			<Original>Random Loadout</Original>
+			<Czech>Náhodný Loadout</Czech>
+		</Key>
+		<Key ID="STR_SMenu_custLoadout">
+			<Original>Custom Loadout</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_SMenu_randomSpawn">
+			<Original>Random</Original>
+			<Czech>Náhodný</Czech>
+		</Key>
+		<Key ID="STR_SMenu_randomHalo">
+			<Original>Random Halo Jump</Original>
+			<Czech>Náhodný Halo Jump</Czech>
+		</Key>
+	</Package>
+	<Package name="VIPfeatures">
+		<Key ID="STR_VIP_HVTColor">
+			<Original>HVT Color</Original>
+			<Czech>HVT Barva</Czech>
+		</Key>
+		<Key ID="STR_VIP_Taunts">
+			<Original>Taunts</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTColorRec">
+			<Original>Please reconnect to save changes</Original>
+			<Czech>Pro uložení změn se znovu prosím připojte. </Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton1">
+			<Original>Color - Red (no Vip)</Original>
+			<Czech>Barva - Červená (ne Vip)</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton2">
+			<Original>Color - Orange</Original>
+			<Czech>Barva - Oranžová</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton3">
+			<Original>Color - Pink</Original>
+			<Czech>Barva - Růžová</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton4">
+			<Original>Color - Pink/Red</Original>
+			<Czech>Barva - Růžovo-Červená</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton5">
+			<Original>Color - Blue/Gray</Original>
+			<Czech>Barva - Modro/Šedá</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton6">
+			<Original>Color - Purple</Original>
+			<Czech>Barva - Fialová</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton7">
+			<Czech>Barva - Zlatá</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTCButton0">
+			<Original>Color - Yellow (Vip)</Original>
+			<Czech>Barva - Žlutá (Vip)</Czech>
+		</Key>
+		<Key ID="STR_VIP_HVTcolorC">
+			<Original>High Value Target Color</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="AWStores">
+		<Key ID="STR_AW_Buy">
+			<Original>Buy</Original>
+			<Czech>Koupit</Czech>
+		</Key>
+		<Key ID="STR_AW_Ordnance">
+			<Original>Grenades/Mines</Original>
+			<Czech>Granáty/Miny</Czech>
+		</Key>
+		<Key ID="STR_AW_sellWeapon">
+			<Original>Sell Weapon</Original>
+			<Czech>Prodat Zbraň</Czech>
+		</Key>
+		<Key ID="STR_AW_sellUniform">
+			<Original>Sell Uniform</Original>
+			<Czech>Prodat Uniformu</Czech>
+		</Key>
+		<Key ID="STR_AW_sellVest">
+			<Original>Sell Vest</Original>
+			<Czech>Prodat Vestu</Czech>
+		</Key>
+		<Key ID="STR_AW_sellBackpack">
+			<Original>Sell Backpack</Original>
+			<Czech>Prodat Batoh</Czech>
+		</Key>
+		<Key ID="STR_AW_Cancel">
+			<Original>Cancel</Original>
+			<Czech>Zrušit</Czech>
+		</Key>
+		<Key ID="STR_AW_Select">
+			<Original>Select Weapon</Original>
+			<Czech>Vybrat Zbraň</Czech>
+		</Key>
+		<Key ID="STR_AW_SelectScope">
+			<Original>Select Scope</Original>
+			<Czech>Vybrat Zaměřovač</Czech>
+		</Key>
+		<Key ID="STR_AW_noHandgun">
+			<Original>No Handgun</Original>
+			<Czech>Bez pistole</Czech>
+		</Key>
+	</Package>
+	<Package name="ShopItems">
+		<Key ID="STR_WL_ShopItems_RepairKit">
+			<Original>Repair Kit</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanF">
+			<Original>Jerry Can (Full)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_JerryCanE">
+			<Original>Jerry Can (Empty)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SpawnBeacon">
+			<Original>Spawn Beacon</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_CamoNet">
+			<Original>Camo Net</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_SyphonHose">
+			<Original>Syphon Hose</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EnergyDrink">
+			<Original>Energy Drink</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Warchest">
+			<Original>Warchest</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Heroin">
+			<Original>Heroin</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Cocaine">
+			<Original>Cocaine</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Marijuana">
+			<Original>Marijuana</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_LSD">
+			<Original>LSD</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Stash">
+			<Original>Stash Bush</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_EasterEgg">
+			<Original>Easter Egg</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_XmasGift">
+			<Original>Xmas Gift</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_Pumpkin">
+			<Original>Pumpkin</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_ShopItems_MobileBike">
+			<Original>Mobile Bike</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="DynLoadout">
+		<Key ID="STR_WL_DynLoadout_AcoRed">
+			<Original>Aco (Red)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreen">
+			<Original>Aco (Green)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCircle">
+			<Original>Holosight (Red Circle)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_HoloRedCross">
+			<Original>Holosight SMG (Red Cross)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoRedSMG">
+			<Original>Aco SMG (Red)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AcoGreenSMG">
+			<Original>Aco SMG (Green)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSBlk">
+			<Original>AMS Black (Red Dot)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSKhk">
+			<Original>AMS Khaki (Red Cross)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_DynLoadout_AMSSnd">
+			<Original>AMS Sand (Red Arrow)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="zTauntMenu">
+		<Key ID="STR_WL_TauntMenu_Button0">
+			<Original>Knee bending</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button1">
+			<Original>Knee bending (fast)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button2">
+			<Original>Push-ups</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button3">
+			<Original>Takwondo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button4">
+			<Original>Pissing</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button5">
+			<Original>Dancing 1</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_TauntMenu_Button6">
+			<Original>Dancing 2</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_noMove">
+			<Original>While Dancing you can not move!</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_tauntMenu">
+			<Original>Taunt Menu</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="STR_WL_uniPainter">
+		<Key ID="STR_WL_uniP_RedCamo">
+			<Original>Red Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_RedCamo2">
+			<Original>Red Camo (2)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_gerArmy">
+			<Original>German Army</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_WhiteRed">
+			<Original>White-red</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_Rusty">
+			<Original>Rusty</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_DesertCamo">
+			<Original>Desert Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_GrassCamo">
+			<Original>Grass Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_FlowPow">
+			<Original>Flower Power</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_BlueCamo">
+			<Original>Blue Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_SandCamo">
+			<Original>Sand Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_WoodlandCamo">
+			<Original>Woodland Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_SwampCamo">
+			<Original>Swamp Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_BWdesert">
+			<Original>BW Desert (Veh)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_BWtropic">
+			<Original>BW Tropic (Veh)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_BWcamoOrg">
+			<Original>BW Camo</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec1">
+			<Original>Donator Special I</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec2">
+			<Original>Donator Special II</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_donatorSpec3">
+			<Original>Donator Special III</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_paintUniMenu">
+			<Original>Paint Uniform Menu ($1500 each)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_paintVehMenu">
+			<Original>Vehicle Repaint Menu ($500 each)</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_WL_uniP_uniSelect">
+			<Original>Select</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+	<Package name="STR_ESCMenu">
+		<Key ID="STR_ESCMenu_gameInfo">
+			<Original>Wasteland Info</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_helpButton">
+			<Original>HELP GUIDE / COMMANDS</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_helpTip">
+			<Original>Help guide and Commands list</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesButton">
+			<Original>SERVER RULES</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_rulesTip">
+			<Original>A3 Wasteland Server Rules</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_vipButton">
+			<Original>DONATE/VIP</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_vipTip">
+			<Original>Register and buy VIP</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_serverButton">
+			<Original>SERVER LIST</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_serverTip">
+			<Original>Overview of all noAim Servers</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_statsButton">
+			<Original>WASTELAND STATS</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_statsTip">
+			<Original>Crossover Server/Player Stats</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_nALinks">
+			<Original>noAim Links</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_forumButton">
+			<Original>FORUM</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_forumTip">
+			<Original>Post bugs, suggestions or apply for Membership</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_disButton">
+			<Original>DISCORD</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+		<Key ID="STR_ESCMenu_disTip">
+			<Original>Post bugs, suggestions, report players or apply for Supporter</Original>
+			<Czech>XXXXXXXXXXXXXXXXXXXXXXX</Czech>
+		</Key>
+	</Package>
+</Project>
