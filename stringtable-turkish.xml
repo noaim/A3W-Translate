@@ -25,7 +25,7 @@
 		</Key>
 		<Key ID="STR_WL_Loading_Teamswitched">
 			<Original>You have played as %1 for too long and cannot switch to the other team. (ask an admin to unlock you)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>%1 olarak çok uzun süre oynadınız, başka bir takıma geçemezsiniz. (Admin'den sizin kilidinizi açmasını rica ediniz.)</Turkish>
 		</Key>
 	</Package>
 	<Package name="TeamKillWarningMessage">
@@ -43,11 +43,11 @@
 	<Package name="ShopDescriptions">
 		<Key ID="STR_WL_ShopDescriptions_Camo">
 			<Original>An improvised roof, 4 sticks and a blanket!</Original>
-			<Turkish>Yapay çatı, 4 çubuk ve kamuflaj!</Turkish>
+			<Turkish>Yapay çatı, 4 çubuk ve kamuflaj! Kısacası bir kamuflaj örütüsü.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Tower">
 			<Original>A shaking wooden Tower!</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sallanan bir tahta kule! </Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_RepairKit">
 			<Original>With this kit, you won't need an engineer!</Original>
@@ -55,31 +55,31 @@
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Marijuana">
 			<Original>Get Relaxed!</Original>
-			<Turkish>Biraz rahatlayın!</Turkish>
+			<Turkish>Bunlar bizim gomtanım, al biraz iç de rahatla!</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_LSD">
 			<Original>WOAH! WHAT WAS THAT!</Original>
-			<Turkish>WOW! BU DA NEYDİ?!</Turkish>
+			<Turkish>KANKA Bİ İÇİYOSUN ÇALILAR HAREKET EDİYOR?!</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Cocaine">
 			<Original>Get your twitch on!</Original>
-			<Turkish>Çekmek için al!</Turkish>
+			<Turkish>Çek çek, içine çek!</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Heroin">
 			<Original>At this Stage, you may want to go to rehab.</Original>
-			<Turkish>Bu aşamada rehabilitasyona gitmek isteyebilirsiniz.</Turkish>
+			<Turkish>Kardeşim bi çekiyosun kendini farklı bi haritada buluyorsun, tavsiye ederim.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Pinlock">
 			<Original>This programming tool is a once use only and non removable device to add a pincode to an owned vehicle. By using this your friends can also lock and unlock your vehicle!</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bu program aracı sadece bir kez kullanılabilir ve kaldırılamaz, aracınıza şifre ekler. Bununla arkadaşlarınız da sizin aracınızın kilidini açabilir veya kapatabilir!</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_MedKit">
 			<Original>With this kit, you won't need a medic!</Original>
-			<Turkish>Bu kit ile doktor olmanıza gerek yok!</Turkish>
+			<Turkish>Bu kit ile doktor olmanıza gerek yok! Her şeyi dikebilirsiniz...</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelFull">
 			<Original>25 litres of pure unleaded fuel!</Original>
-			<Turkish>25 litre saf kurşunsuz yakıt!</Turkish>
+			<Turkish>25 litre saf kurşunsuz yakıt! Neyse ki Türkiye haritası yok, yoksa bunu alacak paranız olmazdı.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
 			<Original>Empty fuel can. You can refill it!</Original>
@@ -91,7 +91,7 @@
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
 			<Original>Go forth and steal fuel from vehicles!</Original>
-			<Turkish>Yanlarına git ve araçlardan yakıt çal!</Turkish>
+			<Turkish>Yanlarına git ve araçlardan yakıt çal! Malum benzin fiyatları arttı.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
 			<Original>Allows you to sprint continuously for 5 minutes.</Original>
@@ -107,15 +107,15 @@
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Pumpkin">
 			<Original>You do have now a pumpkin on your head!</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Şimdi kafanda bir balkabağı var!</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Gift">
 			<Original>Merry Xmas! This is your Gift.</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Mutlu noeller! İşte senin hediyen.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Easter">
 			<Original>A strange ball! could be a Easter Egg.</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Garip bir top, Sürpriz Yumurta olabilir. B*k da çıkabilir güvenemiyorum yani.</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Quad">
 			<Original>Just a mobile Quad</Original>
@@ -147,7 +147,7 @@
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconTooMany">
 			<Original>You cannot take more spawn beacons!</Original>
-			<Turkish>Daha fazla spawn beacon alamazsın!</Turkish>
+			<Turkish>Daha fazla spawn beacon alamazsın! Yavaş lan gaç tane alıyon :D</Turkish>
 		</Key>
 	</Package>
 	<Package name="Zone">
@@ -229,125 +229,125 @@
 		</Key>
 		<Key ID="STR_PMenu_ServerList">
 			<Original>Server list</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sunucu Listesi</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_Use">
 			<Original>Use</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kullan</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_DropItem">
 			<Original>Drop Item</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Eşya Bırak</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_DropCash">
 			<Original>Drop Cash</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Para Bırak</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_InfoButton">
 			<Original>Info</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bilgi</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_JetCount">
 			<Original>Jet Count:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Jet Sayısı</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_GearLevel">
 			<Original>Gear Level</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Ekipman Seviyesi</Turkish>
 		</Key>
 		<Key ID="STR_PMenu_servListMods">
 			<Original>Server list / Mods</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sunucu Listesi / Modlar</Turkish>
 		</Key>
 	</Package>
 	<Package name="InfoMenu">
 		<Key ID="STR_InfoMenu_Info">
 			<Original>Informations</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bilgilendirmeler</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_Community">
 			<Original>Community:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Topluluk</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_nALinks">
 			<Original>noAim Links:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>noAim Linkleri</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_nAVIP">
 			<Original>noAim Vip:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>noAim VIP</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_nAStats">
 			<Original>noAim Stats:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>noAim Statlar</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_ServRules">
 			<Original>Server Rules:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sunucu Kuralları</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_Commands">
 			<Original>Commands:</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Komutlar</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_VIPsub">
 			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Click to subscribe&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - for reserved slots, perks and team balance immunity.&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.shop'&gt;Abone olmak için tıklayınız.&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - rezerve slotlar, perkler ve takım dengesinden etkilenmemek için.&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_StatsLink">
 			<Original>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;Click to open Stats&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Crossover Server / Player Statistics&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t colorLink='#c90000'&gt;&lt;a href='http://stats.noaim.eu'&gt;İstatislikleri açmak için tıklayınız&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; - Serverler Arası / Oyuncu İstatikleri&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_ForumLink">
 			<Original>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Forum: &lt;t colorLink='#c90000'&gt;&lt;a href='https://www.noaim.eu'&gt;www.noaim.eu&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_DiscordLink">
 			<Original>&lt;t color='#808080'&gt;Discord: &lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.me'&gt;www.noaim.me&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Discord: &lt;t colorLink='#c90000'&gt;&lt;a href='http://www.noaim.me'&gt;www.noaim.me&lt;/a&gt;&lt;/t&gt;&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_TSLink">
 			<Original>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;TeamSpeak: &lt;t color='#c90000'&gt;ts.noaim.eu&lt;/t&gt;&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_applySup">
 			<Original>&lt;t color='#808080'&gt;Apply as Supporter:&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Supporter olmak isterseniz:&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_applySupInfo">
 			<Original>&lt;t color='#c90000'&gt;To apply as an Supporter visit either our Forum or Discord.&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#c90000'&gt;Supporter olmak isterseniz Forum veya Discord'u ziyaret edebilirsiniz.&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_openSrvRules">
 			<Original>&lt;t color='#808080'&gt;To open up our Server Rules:&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Sunucu kurallarını açmak için:&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_RMapView">
 			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Map View)&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; (Harita Görünümü)&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_ESCRules">
 			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SERVER RULES&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wrules.noaim.eu/'&gt;SUNUCU KURALLARI&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Tarayıcı açılacak)&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_ESCCommand">
 			<Original>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;HELP GUIDE / COMMANDS&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Browser will open up)&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Press &lt;/t&gt;&lt;t color='#c90000'&gt;ESC&lt;/t&gt;&lt;t color='#808080'&gt; - &lt;/t&gt;&lt;t colorLink='#c90000'&gt;&lt;a href='http://www.a3wguide.noaim.eu/'&gt;YARDIM REHBERİ / KOMUTLAR&lt;/a&gt;&lt;/t&gt;&lt;t color='#808080'&gt; (Tarayıcı açılacak)&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_BugSugs">
 			<Original>&lt;t color='#808080'&gt;Either post bugs/suggestions on our Discord or in our Forum.&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Bugları ve önerilerinizi Discord veya Forum üzerinden bize ulaştırabilirsiniz.&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_fixBugs">
 			<Original>&lt;t color='#808080'&gt;Please be patient, fixing bugs and adding new stuff may take awhile.&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;Bugları düzeltmek ve yenilikleri eklemek zaman alabilir, lütfen sabırlı olun.&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_Changelog">
 			<Original>&lt;t color='#808080'&gt;Press &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; to open up the Changelogs.&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;tıklayınız &lt;t color='#c90000'&gt;M&lt;/t&gt;&lt;t color='#808080'&gt; değişim loglarını(Changelog) açmak için&lt;/t&gt;</Turkish>
 		</Key>
 		<Key ID="STR_InfoMenu_comingsoon">
 			<Original>&lt;t color='#808080'&gt;more to come...&lt;/t&gt;</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>&lt;t color='#808080'&gt;daha fazlası gelecek...&lt;/t&gt;</Turkish>
 		</Key>
 	</Package>
 	<Package name="WNOTF">
@@ -375,7 +375,7 @@
 		</Key>
 		<Key ID="STR_GNOTF_notMoney">
 			<Original>Not enough money!</Original>
-			<Turkish>Yeterince paranız yok!</Turkish>
+			<Turkish>Yeterince paranız yok! Bizi mi dolandırıyon usta?</Turkish>
 		</Key>
 		<Key ID="STR_GNOTF_Yes">
 			<Original>Yes</Original>
@@ -417,7 +417,7 @@
 		</Key>
 		<Key ID="STR_SMenu_custLoadout">
 			<Original>Custom Loadout</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Özelleştirilebilir Ekipmanlar</Turkish>
 		</Key>
 		<Key ID="STR_SMenu_randomSpawn">
 			<Original>Random</Original>
@@ -431,391 +431,391 @@
 	<Package name="VIPfeatures">
 		<Key ID="STR_VIP_HVTColor">
 			<Original>HVT Color</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>HVT Rengi</Turkish>
 		</Key>
 		<Key ID="STR_VIP_Taunts">
 			<Original>Taunts</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Hareketler / Alay</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTColorRec">
 			<Original>Please reconnect to save changes</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Değişiklikleri kaydetmek için lütfen tekrar bağlanınız.</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton1">
 			<Original>Color - Red (no Vip)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Kırmızı (VIP yok)</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton2">
 			<Original>Color - Orange</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Turuncu</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton3">
 			<Original>Color - Pink</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Pembe</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton4">
 			<Original>Color - Pink/Red</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Pembe/Kırmızı</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton5">
 			<Original>Color - Blue/Gray</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Mavi/Gri</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton6">
 			<Original>Color - Purple</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Mor</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton7">
 			<Original>Color - Golden</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Altın Rengi</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTCButton0">
 			<Original>Color - Yellow (Vip)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Renk - Sarı</Turkish>
 		</Key>
 		<Key ID="STR_VIP_HVTcolorC">
 			<Original>High Value Target Color</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>High Value Target (Yüksek Değerli Hedef) Rengi</Turkish>
 		</Key>
 	</Package>
 	<Package name="AWStores">
 		<Key ID="STR_AW_Buy">
 			<Original>Buy</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Satın Al</Turkish>
 		</Key>
 		<Key ID="STR_AW_Ordnance">
 			<Original>Grenades/Mines</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>El Bombaları/Mayınlar</Turkish>
 		</Key>
 		<Key ID="STR_AW_sellWeapon">
 			<Original>Sell Weapon</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Silahı Sat</Turkish>
 		</Key>
 		<Key ID="STR_AW_sellUniform">
 			<Original>Sell Uniform</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Üniformanı Sat</Turkish>
 		</Key>
 		<Key ID="STR_AW_sellVest">
 			<Original>Sell Vest</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Yeleğini/Zırhını Sat</Turkish>
 		</Key>
 		<Key ID="STR_AW_sellBackpack">
 			<Original>Sell Backpack</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sırt Çantanı Sat</Turkish>
 		</Key>
 		<Key ID="STR_AW_Cancel">
 			<Original>Cancel</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>İptal</Turkish>
 		</Key>
 		<Key ID="STR_AW_Select">
 			<Original>Select Weapon</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Silah Seç</Turkish>
 		</Key>
 		<Key ID="STR_AW_SelectScope">
 			<Original>Select Scope</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Dürbün Seç</Turkish>
 		</Key>
 		<Key ID="STR_AW_noHandgun">
 			<Original>No Handgun</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Tabanca Yok</Turkish>
 		</Key>
 	</Package>
 	<Package name="ShopItems">
 		<Key ID="STR_WL_ShopItems_RepairKit">
 			<Original>Repair Kit</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Tamir Çantası</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_JerryCanF">
 			<Original>Jerry Can (Full)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Benzin Bidonu (Dolu)</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_JerryCanE">
 			<Original>Jerry Can (Empty)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Benzin Bidonu (Boş)</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_SpawnBeacon">
 			<Original>Spawn Beacon</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Spawn Beacon</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_CamoNet">
 			<Original>Camo Net</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kamuflaj Örtü</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_SyphonHose">
 			<Original>Syphon Hose</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Benzin Hortumu</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_EnergyDrink">
 			<Original>Energy Drink</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Enerji İçeceği</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Warchest">
 			<Original>Warchest</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Savaş Sandığı</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Heroin">
 			<Original>Heroin</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Heroin</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Cocaine">
 			<Original>Cocaine</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kokain</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Marijuana">
 			<Original>Marijuana</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Marijuana</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_LSD">
 			<Original>LSD</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>LSD</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Stash">
 			<Original>Stash Bush</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Çalı Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_EasterEgg">
 			<Original>Easter Egg</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Sürpriz Yumurta</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_XmasGift">
 			<Original>Xmas Gift</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Noel Hediyesi</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_Pumpkin">
 			<Original>Pumpkin</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Balkabağı</Turkish>
 		</Key>
 		<Key ID="STR_WL_ShopItems_MobileBike">
 			<Original>Mobile Bike</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Taşınabilir ATV</Turkish>
 		</Key>
 	</Package>
 	<Package name="DynLoadout">
 		<Key ID="STR_WL_DynLoadout_AcoRed">
 			<Original>Aco (Red)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Aco (Kırmızı)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AcoGreen">
 			<Original>Aco (Green)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Aco (Yeşil)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_HoloRedCircle">
 			<Original>Holosight (Red Circle)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Holosight (Kırmızı Yuvarlak)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_HoloRedCross">
 			<Original>Holosight SMG (Red Cross)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Holosight SMG (Kırmızı Artı)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AcoRedSMG">
 			<Original>Aco SMG (Red)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Aco SMG (Kırmızı)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AcoGreenSMG">
 			<Original>Aco SMG (Green)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Aco SMG (Yeşil)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AMSBlk">
 			<Original>AMS Black (Red Dot)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>AMS Siyah (Kırmızı Nokta)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AMSKhk">
 			<Original>AMS Khaki (Red Cross)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>AMS Hâki (Kırmızı Artı)</Turkish>
 		</Key>
 		<Key ID="STR_WL_DynLoadout_AMSSnd">
 			<Original>AMS Sand (Red Arrow)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>AMS Kum (Kırmızı Ok)</Turkish>
 		</Key>
 	</Package>
 	<Package name="zTauntMenu">
 		<Key ID="STR_WL_TauntMenu_Button0">
 			<Original>Knee bending</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bacak Egzersizi</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button1">
 			<Original>Knee bending (fast)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bacak Egzersizi (hızlı)</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button2">
 			<Original>Push-ups</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Şınav</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button3">
 			<Original>Takwondo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Tekvando</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button4">
 			<Original>Pissing</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>İşeme</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button5">
 			<Original>Dancing 1</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Dans 1</Turkish>
 		</Key>
 		<Key ID="STR_WL_TauntMenu_Button6">
 			<Original>Dancing 2</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Dans 2</Turkish>
 		</Key>
 		<Key ID="STR_WL_noMove">
 			<Original>While Dancing you can not move!</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Dans ederken hareket edemezsin!</Turkish>
 		</Key>
 		<Key ID="STR_WL_tauntMenu">
 			<Original>Taunt Menu</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Hareket Menüsü</Turkish>
 		</Key>
 	</Package>
 	<Package name="STR_WL_uniPainter">
 		<Key ID="STR_WL_uniP_RedCamo">
 			<Original>Red Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kırmızı Kamuflaj</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_RedCamo2">
 			<Original>Red Camo (2)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kırmızı Kamuflaj (2)</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_gerArmy">
 			<Original>German Army</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Alman Ordusu</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_WhiteRed">
 			<Original>White-red</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kırmızı-Beyaz</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_Rusty">
 			<Original>Rusty</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Paslı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_DesertCamo">
 			<Original>Desert Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Çöl Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_GrassCamo">
 			<Original>Grass Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Çim Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_FlowPow">
 			<Original>Flower Power</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Çiçekli Kamuflaj</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_BlueCamo">
 			<Original>Blue Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Mavi Kamuflaj</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_SandCamo">
 			<Original>Sand Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kum Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_WoodlandCamo">
 			<Original>Woodland Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Orman Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_SwampCamo">
 			<Original>Swamp Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bataklık Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_BWdesert">
 			<Original>BW Desert (Veh)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>BW Çöl (Araç)</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_BWtropic">
 			<Original>BW Tropic (Veh)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>BW Tropik (Araç)</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_BWcamoOrg">
 			<Original>BW Camo</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>BW Kamuflajı</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_donatorSpec1">
 			<Original>Donator Special I</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bağışçı Özel 1</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_donatorSpec2">
 			<Original>Donator Special II</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bağışçı Özel 2</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_donatorSpec3">
 			<Original>Donator Special III</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Bağışçı Özel 3</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_paintUniMenu">
 			<Original>Paint Uniform Menu ($1500 each)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Üniforma Boyama Menüsü (Her biri 1500$)</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_paintVehMenu">
 			<Original>Vehicle Repaint Menu ($500 each)</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Araç Boyama Menüsü (Her biri $500)</Turkish>
 		</Key>
 		<Key ID="STR_WL_uniP_uniSelect">
 			<Original>Select</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Seç</Turkish>
 		</Key>
 	</Package>
 	<Package name="STR_ESCMenu">
 		<Key ID="STR_ESCMenu_gameInfo">
 			<Original>Wasteland Info</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Wasteland Bilgilendirme</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_helpButton">
 			<Original>HELP GUIDE / COMMANDS</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>YARDIM REHBERİ / KOMUTLAR</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_helpTip">
 			<Original>Help guide and Commands list</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Yardım rehberi ve Komutların listesi</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_rulesButton">
 			<Original>SERVER RULES</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>SUNUCU KURALLARI</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_rulesTip">
 			<Original>A3 Wasteland Server Rules</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>A3 Wasteland Sunucu Kuralları</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_vipButton">
 			<Original>DONATE/VIP</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>BAĞIŞÇI/VIP</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_vipTip">
 			<Original>Register and buy VIP</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Kayıt ol ve VIP al</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_serverButton">
 			<Original>SERVER LIST</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>SUNUCU LİSTESİ</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_serverTip">
 			<Original>Overview of all noAim Servers</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Tüm noAim Serverleri</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_statsButton">
 			<Original>WASTELAND STATS</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>WASTELAND İSTATİSLİKLERİ</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_statsTip">
 			<Original>Crossover Server/Player Stats</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Serverler Arası/Oyuncu İstatislikleri</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_nALinks">
 			<Original>noAim Links</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>noAim Linkleri</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_forumButton">
 			<Original>FORUM</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>FORUM</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_forumTip">
 			<Original>Post bugs, suggestions or apply for Membership</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Buglarınızı, önerilerinizi yazmak ya da üye olmak için</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_disButton">
 			<Original>DISCORD</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>DISCORD</Turkish>
 		</Key>
 		<Key ID="STR_ESCMenu_disTip">
 			<Original>Post bugs, suggestions, report players or apply for Supporter</Original>
-			<Turkish>XXXXXXXXXXXXXXXXXXXXXXX</Turkish>
+			<Turkish>Buglarınızı, önerilerinizi yazmak ya da oyuncuları şikayet etmek ve Supporter olmak için </Turkish>
 		</Key>
 	</Package>
 </Project>
